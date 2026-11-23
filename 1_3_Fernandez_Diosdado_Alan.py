@@ -139,6 +139,8 @@ def calcular_estadisticas(posts):
         f"Total de publicaciones: {len(posts)}",
         f"Periodo: del {fechas[0]} al {fechas[-1]} ({dias} días)",
         f"Frecuencia media: {len(posts) / dias:.2f} publicaciones al día",
+        f"Días con al menos una publicación: {len(set(fechas))} de {dias}",
+        f"Interacciones medias globales: {sum(map(contar_interacciones, posts)) / len(posts):.1f}",
     ]
     for tipo, valores in grupos.items():
         lineas.append(

@@ -97,6 +97,8 @@ def test_calcular_estadisticas():
     assert "Total de publicaciones: 2" in estadisticas
     assert "Periodo: del 2026-11-20 al 2026-11-23 (4 días)" in estadisticas
     assert "Frecuencia media: 0.50 publicaciones al día" in estadisticas
+    assert "Días con al menos una publicación: 2 de 4" in estadisticas
+    assert "Interacciones medias globales: 85.5" in estadisticas
     assert "Publicaciones de tipo 'video': 1, interacciones medias 133.0 (mínimo 133, máximo 133)" in estadisticas
     assert "Publicaciones de tipo 'imagen': 1, interacciones medias 38.0 (mínimo 38, máximo 38)" in estadisticas
     assert estadisticas.endswith(
