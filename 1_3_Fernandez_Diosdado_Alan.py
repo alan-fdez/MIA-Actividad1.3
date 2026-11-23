@@ -42,11 +42,14 @@ def obtener_feed(cliente, actor, limite):
         if elemento.reason is not None:
             continue
         post = elemento.post
+        texto_limpio = limpiar_texto(post.record)
+        if not texto_limpio:
+            continue
         posts.append({
             "uri": post.uri,
             "fecha": post.record.created_at,
             "texto": post.record.text,
-            "texto_limpio": limpiar_texto(post.record),
+            "texto_limpio": texto_limpio,
             "likes": post.like_count,
             "reposts": post.repost_count,
             "respuestas": post.reply_count,
