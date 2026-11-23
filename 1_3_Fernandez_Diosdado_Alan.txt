@@ -1,47 +1,55 @@
-ANÁLISIS DEL PERFIL @PLAYSTATION.COM EN BLUESKY  
+INFORME DE ANÁLISIS DEL PERFIL @PLAYSTATION.COM EN BLUESKY  
 
 1. RESUMEN DEL PERFIL  
-El perfil de PlayStation.com publica de forma continua contenido centrado en el ecosistema PlayStation: lanzamientos de juegos, ofertas especiales (Black Friday), novedades de hardware, campañas de pre‑pedido y recordatorios de eventos. En los últimos 49 posts (aproximadamente 50 días) la frecuencia es alta, con al menos una publicación diaria y picos de 3‑4 posts en algunos días. El engagement total varía ampliamente, con picos de likes (más de 200) y respuestas (más de 80) en publicaciones relacionadas con grandes lanzamientos (GTA VI, Gran Turismo, God of War) y eventos de preventa.
+El perfil ha publicado 50 contenidos en los últimos 53 días (del 2026‑10‑02 al 2026‑11‑23), lo que representa una frecuencia media de 0,94 publicaciones por día y cobertura en 27 de los 53 días del periodo analizado. Las publicaciones generan en promedio 174 interacciones totales (suma de likes, reposts, respuestas y citas). El contenido se reparte entre imágenes (28 publicaciones) y videos (22 publicaciones).  
 
-2. TEMAS PRINCIPALES  
-- Lanzamientos y pre‑cargas de videojuegos (≈45 %): GTA VI, God of War, Ghost of Yōtei, Helldivers 2, etc.  
-- Promociones y ofertas (Black Friday, descuentos, PlayStation Plus) (≈30 %): varias publicaciones anuncian “Black Friday Deals”, descuentos en accesorios y juegos, y listas de títulos disponibles en PlayStation Plus.  
-- Hardware y ediciones especiales (≈15 %): DualSense Transparent, Prism Collection, Limited‑Edition controllers, Pulse headset.  
-- Eventos y contenido de comunidad (≈10 %): recordatorios de pre‑load, fechas de lanzamiento, concursos implícitos (ej. “Mark the occasion”), y menciones a podcasts o colaboraciones.  
+2. TEMAS PRINCIPALES (PORCENTAJE APROXIMADO)  
+- Lanzamientos y pre‑ventas de juegos (especialmente *Grand Theft Auto VI* y títulos de PlayStation Plus): ≈ 35 %  
+- Ofertas y Black Friday (accesorios, juegos, suscripciones): ≈ 20 %  
+- Anuncios de hardware y ediciones especiales (DualSense, Prism Collection, Pulse headset): ≈ 15 %  
+- Promoción de PlayStation Plus (catálogo, nuevos títulos): ≈ 12 %  
+- Eventos y colaboraciones (podcasts, DLC, cross‑overs): ≈ 10 %  
+- Otros (actualizaciones, noticias de terceros, contenido comunitario): ≈ 8 %  
 
 3. TONO Y SENTIMIENTO GENERAL  
-El tono es mayormente informativo y promocional, con un estilo entusiasta y de llamado a la acción (“Discover”, “Mark the occasion”, “Learn more”). No aparecen expresiones negativas; el sentimiento se percibe como positivo y orientado a la expectativa, resaltando beneficios (“save on games”, “most pre‑ordered game”, “celebrate”).  
+El tono es mayormente promocional y anunciador, con un enfoque informativo y entusiasta. No se observan publicaciones de tono crítico o polémico; el lenguaje invita a la compra, la pre‑carga o la participación en eventos. El sentimiento se percibe positivo, orientado a generar expectativa y urgencia (“Discover discounts”, “Launch tomorrow”, “Pre‑load now”).  
 
-4. TIPO DE CONTENIDO  
-- Promoción de ventas/ofertas (Black Friday Deals, descuentos en accesorios).  
-- Noticias de lanzamientos (anuncios de disponibilidad, fechas de salida, pre‑load).  
-- Anuncios de hardware y ediciones limitadas (controladores, headset).  
-- Contenido de comunidad (recordatorios, llamadas a pre‑carga, podcasts).  
-- Actualizaciones de catálogo PlayStation Plus (listados de juegos disponibles).  
+4. TIPO DE CONTENIDO Y USO DE IMÁGENES Y VÍDEOS  
+- Promoción de productos (juegos, accesorios, suscripciones) → la mayor parte del contenido.  
+- Noticias de lanzamiento y fechas de disponibilidad.  
+- Interacción limitada con la comunidad (pocos “citas” y respuestas comparado con likes y reposts).  
+- Uso de imágenes en 28 publicaciones (media 169,8 interacciones) y videos en 22 publicaciones (media 179,3 interacciones).  
+- Algunas publicaciones combinan varias imágenes (ej. “imagen x4”, “imagen x6”) para destacar varios títulos o productos.  
 
-5. ENGAGEMENT: TIPOS DE PUBLICACIÓN CON MAYOR INTERACCIÓN  
-- Grandes lanzamientos de franquicias (GTA VI, God of War, Gran Turismo) generan los niveles más altos de respuestas y citas (ej. 30 respuestas y 6 citas, 83 respuestas y 20 citas).  
-- Ofertas Black Friday obtienen altos likes pero menos respuestas, indicando interés pasivo.  
-- Anuncios de hardware exclusivo (Transparent DualSense, Prism Collection) alcanzan likes elevados (≈200) y citas moderadas.  
-- Publicaciones con llamado a acción específico (pre‑load, clear storage) muestran mayor número de respuestas (≥30).  
+5. ENGAGEMENT  
+- Las publicaciones con mayor número de interacciones son videos y una imagen destacada:  
+  *2026‑10‑28* (video) 468 interacciones – “Introducing the transparent Prism Collection…”.  
+  *2026‑10‑02* (imagen) 319 interacciones – “In this week's Official PlayStation Podcast…”.  
+  *2026‑10‑13* (imagen) 301 interacciones – “The God of War Laufey - Collector Box…”.  
+  *2026‑11‑03* (imagen) 296 interacciones – “Get ready for Grand Theft Auto VI…”.  
+  *2026‑10‑22* (video) 294 interacciones – “Celebrate 30 years of Lara Croft's PlayStation adventures…”.  
+- En promedio, los videos superan ligeramente a las imágenes (179,3 vs 169,8), y las publicaciones con contenido de alto valor (lanzamientos de gran tirada, ediciones limitadas, eventos especiales) concentran la mayor parte del engagement.  
 
 6. FRECUENCIA DE PUBLICACIÓN  
-- Promedio: ~1 publicación por día.  
-- Días con mayor actividad: 2026‑11‑03 (3 posts), 2026‑10‑28 (2 posts), 2026‑10‑22 (3 posts).  
-- Ritmo constante durante la segunda mitad de noviembre, con incremento de posts de ofertas a partir del 15 nov.  
+- Media de 0,94 publicaciones/día.  
+- Publicaciones en 27 de 53 días (≈ 51 % de los días).  
+- Picos de actividad coinciden con periodos de lanzamiento (últimos días de octubre y la segunda quincena de noviembre) y con eventos de ventas (Black Friday).  
 
 7. PÚBLICO OBJETIVO  
-- Jugadores de PlayStation 5 que siguen lanzamientos de títulos AAA y juegos de catálogo.  
-- Consumidores interesados en ofertas y descuentos (Black Friday, PlayStation Plus).  
-- Fans de coleccionables y hardware premium (controladores edición limitada, headset).  
-- Comunidad que busca información práctica (pre‑load, espacio de almacenamiento, fechas de lanzamiento).  
+- Jugadores de consola PlayStation 5, especialmente fans de franquicias de gran tirada como *Grand Theft Auto*, *God of War*, *Spider‑Man* y *Lara Croft*.  
+- Consumidores interesados en hardware y accesorios premium (DualSense, Pulse, Prism Collection).  
+- Suscriptores o potenciales suscriptores de PlayStation Plus que buscan catálogos de juegos y ofertas.  
+- Demografía probable: adultos jóvenes (18‑35 años), mayoritariamente usuarios con poder adquisitivo medio‑alto y alta afinidad por contenido de entretenimiento digital.  
 
 8. CONCLUSIONES Y RECOMENDACIONES  
-- Mantener la combinación actual de anuncios de grandes lanzamientos y promociones de ofertas, ya que ambos generan engagement alto pero de naturaleza distinta (interacción vs likes).  
-- Potenciar los posts con llamado a la acción (pre‑load, clear storage) que generan más respuestas; incluir preguntas directas para estimular conversaciones.  
-- Aprovechar el pico de interés en ediciones limitadas publicando contenido visual adicional (aunque no analizable aquí) y ofreciendo enlaces a pre‑orders para convertir el alto número de likes en ventas.  
-- Optimizar la calendarización de Black Friday: publicar recordatorios más frecuentes en la semana previa al inicio de las ofertas para maximizar la exposición.  
-- Diversificar ligeramente el contenido con más posts de comunidad (ej. encuestas, preguntas sobre experiencias de juego) para aumentar la tasa de respuestas y citas, equilibrando la carga informativa con interacción.  
-- Monitorear la reacción a cada categoría (porcentaje de respuestas vs likes) para ajustar el peso de cada tipo de publicación en futuros calendarios, priorizando aquellos que generan mayor conversación.  
+- Conclusiones: El perfil mantiene una estrategia de contenido altamente promocional, centrada en lanzamientos de títulos emblemáticos y ofertas de temporada. Los videos generan ligeramente más interacción que las imágenes, y las publicaciones que combinan anuncio de lanzamiento con llamada a la acción (“pre‑load now”, “pre‑orders available”) son las más efectivas. La frecuencia de publicación es suficiente para mantener presencia, pero se concentra en periodos clave, lo que maximiza el impacto.  
 
-Este análisis se basa exclusivamente en los datos de interacciones y textos proporcionados y refleja el comportamiento actual del perfil en Bluesky.
+- Recomendaciones:  
+  1. Incrementar contenido de video en torno a lanzamientos y ediciones especiales, dado su mayor rendimiento en engagement.  
+  2. Añadir más interacción comunitaria (preguntas abiertas, encuestas, retos) para elevar el número de respuestas y citas, diversificando el tipo de engagement más allá de likes y reposts.  
+  3. Programar publicaciones de recordatorio en los días previos a eventos de venta (Black Friday) para aprovechar la alta expectativa y aumentar conversiones.  
+  4. Aprovechar carruseles de imágenes (más de una imagen por publicación) en anuncios de catálogos PlayStation Plus, ya que las publicaciones con “imagen x4” y “imagen x6” muestran buena interacción.  
+  5. Seguir alineando lanzamientos de hardware con contenido de video que muestre características únicas (ej. Prism Collection), ya que los videos con foco en hardware registran los picos más altos de interacción.  
+  6. Monitorear la respuesta a publicaciones de contenido “behind‑the‑scenes” (p.ej., podcasts, entrevistas) que han generado altas cifras, para replicar ese formato y reforzar la conexión con la comunidad.  
+
+Implementar estas acciones debería fortalecer la relación con la audiencia, diversificar el engagement y mantener el perfil como referencia principal de información y promoción dentro del ecosistema PlayStation en Bluesky.

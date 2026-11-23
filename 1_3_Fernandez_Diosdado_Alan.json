@@ -1,21 +1,31 @@
 {
   "_id": {
-    "$oid": "6b04835acd47085f1af1f628"
+    "$oid": "6b048fd11f963e083d519daf"
   },
   "perfil": "playstation.com",
   "fecha_extraccion": {
-    "$date": "2026-11-23T18:18:02.752Z"
+    "$date": "2026-11-23T19:11:13.023Z"
   },
-  "num_posts": 49,
+  "num_posts": 50,
   "posts": [
     {
       "uri": "at://did:plc:3nfshkzomgboapasu6amkhui/app.bsky.feed.post/3n2yfjdewi22y",
       "fecha": "2026-11-23T15:01:32.949Z",
       "texto": "Discover discounts across PS5 accessories, games, PlayStation Plus memberships, and more with PlayStation’s Black Friday Deals. \n\nDiscover what’s available: play.st/4ePZnW5",
       "texto_limpio": "Discover discounts across PS5 accessories, games, PlayStation Plus memberships, and more with PlayStation’s Black Friday Deals. Discover what’s available:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreifubilxlrvorag4ef25qeefgq2rz5de5idwn4mi64d5fheohyw3by",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreifubilxlrvorag4ef25qeefgq2rz5de5idwn4mi64d5fheohyw3by",
+          "alt": "Ends 11/30",
+          "ancho": 1080,
+          "alto": 1080
+        }
+      ],
       "likes": 29,
       "reposts": 0,
-      "respuestas": 9,
+      "respuestas": 10,
       "citas": 1
     },
     {
@@ -23,6 +33,16 @@
       "fecha": "2026-11-20T23:07:14.280Z",
       "texto": "Your first weekend with Grand Theft Auto VI has arrived\n\nAvailable on PS5 now: play.st/GTAVIPS5",
       "texto_limpio": "Your first weekend with Grand Theft Auto VI has arrived Available on PS5 now:",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreiaovirkljhbcqcwjdl3degc5xp47qxrkywv2yhb4y2ddvanfdhata/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreiaovirkljhbcqcwjdl3degc5xp47qxrkywv2yhb4y2ddvanfdhata/thumbnail.jpg",
+          "alt": "",
+          "ancho": 1920,
+          "alto": 1080
+        }
+      ],
       "likes": 103,
       "reposts": 8,
       "respuestas": 22,
@@ -33,16 +53,56 @@
       "fecha": "2026-11-19T18:30:18.738Z",
       "texto": "The Grand Theft Auto VI Limited-Edition DualSense Wireless Controllers are available today alongside Grand Theft Auto VI, out now on PS5: play.st/4fEJDFC",
       "texto_limpio": "The Grand Theft Auto VI Limited-Edition DualSense Wireless Controllers are available today alongside Grand Theft Auto VI, out now on PS5:",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreicj5wg5fwokesxrvnsbxnwzs3emx7xe6gtmz73rd3as55fzifl46m/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreicj5wg5fwokesxrvnsbxnwzs3emx7xe6gtmz73rd3as55fzifl46m/thumbnail.jpg",
+          "alt": "",
+          "ancho": 3840,
+          "alto": 3840
+        }
+      ],
       "likes": 95,
       "reposts": 10,
       "respuestas": 15,
       "citas": 3
     },
     {
+      "uri": "at://did:plc:3nfshkzomgboapasu6amkhui/app.bsky.feed.post/3n2oiuf47i22f",
+      "fecha": "2026-11-19T16:34:47.705Z",
+      "texto": "",
+      "texto_limpio": "",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreieqveairv56t7c4kujzjbsexetujnyl2waknthkh5hsymelnkaki4/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreieqveairv56t7c4kujzjbsexetujnyl2waknthkh5hsymelnkaki4/thumbnail.jpg",
+          "alt": "",
+          "ancho": 3840,
+          "alto": 2160
+        }
+      ],
+      "likes": 62,
+      "reposts": 1,
+      "respuestas": 15,
+      "citas": 2
+    },
+    {
       "uri": "at://did:plc:3nfshkzomgboapasu6amkhui/app.bsky.feed.post/3n2oacqesvk2f",
       "fecha": "2026-11-19T14:01:45.604Z",
       "texto": "Grand Theft Auto VI is out today on PS5.\n\nJoin Jason and Lucia in Leonida: play.st/GTAVIPS5",
       "texto_limpio": "Grand Theft Auto VI is out today on PS5. Join Jason and Lucia in Leonida:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreihuxzg4rol7b4spsuymwv3eovbuwkgz5tgxmgwbue2zix2vt26vba",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreihuxzg4rol7b4spsuymwv3eovbuwkgz5tgxmgwbue2zix2vt26vba",
+          "alt": "",
+          "ancho": 1920,
+          "alto": 1080
+        }
+      ],
       "likes": 167,
       "reposts": 16,
       "respuestas": 30,
@@ -53,6 +113,16 @@
       "fecha": "2026-11-18T16:01:57.273Z",
       "texto": "Grand Theft Auto VI launches tomorrow, Thursday, November 19!  \n\nThe latest installment in the GTA series heads to the state of Leonida, home to the neon-soaked streets of Vice City and beyond. Learn more: play.st/3VtaQV3",
       "texto_limpio": "Grand Theft Auto VI launches tomorrow, Thursday, November 19! The latest installment in the GTA series heads to the state of Leonida, home to the neon-soaked streets of Vice City and beyond. Learn more:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreicqarm5xhzufrvasv7gpczu3kgidg7kvh2xqjurmrz6ws3oct67aq",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreicqarm5xhzufrvasv7gpczu3kgidg7kvh2xqjurmrz6ws3oct67aq",
+          "alt": "",
+          "ancho": 1920,
+          "alto": 1080
+        }
+      ],
       "likes": 141,
       "reposts": 14,
       "respuestas": 20,
@@ -63,6 +133,16 @@
       "fecha": "2026-11-18T14:23:52.594Z",
       "texto": "Find a new adventure today with PlayStation Store’s Black Friday Deals. \n\nplay.st/4iYtXxP",
       "texto_limpio": "Find a new adventure today with PlayStation Store’s Black Friday Deals.",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreigdxmohnmp3g4riwqantbs5k3eust632h2nnrantio5dzleaqhdkm",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreigdxmohnmp3g4riwqantbs5k3eust632h2nnrantio5dzleaqhdkm",
+          "alt": "Save up to 75%",
+          "ancho": 1080,
+          "alto": 1080
+        }
+      ],
       "likes": 58,
       "reposts": 3,
       "respuestas": 14,
@@ -73,6 +153,16 @@
       "fecha": "2026-11-17T21:33:37.341Z",
       "texto": "Reminder: You can pre-load Grand Theft Auto VI on PS5 now before it launches November 19\n\nLearn more: play.st/4iKnSq5",
       "texto_limpio": "Reminder: You can pre-load Grand Theft Auto VI on PS5 now before it launches November 19 Learn more:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreihuxzg4rol7b4spsuymwv3eovbuwkgz5tgxmgwbue2zix2vt26vba",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreihuxzg4rol7b4spsuymwv3eovbuwkgz5tgxmgwbue2zix2vt26vba",
+          "alt": "",
+          "ancho": 1920,
+          "alto": 1080
+        }
+      ],
       "likes": 136,
       "reposts": 15,
       "respuestas": 35,
@@ -83,6 +173,40 @@
       "fecha": "2026-11-17T18:00:06.994Z",
       "texto": "Out now on PlayStation Plus:\n\n📦 Death Stranding 2: On the Beach  (Game Catalog)\n☢️ Atomfall (Game Catalog)\n🐉 Dragon Quest III HD-2D Remake  (Game Catalog)\n🧛 Soul Reaver 2  (Classics Catalog)\n🎧 Freedom Wars Remastered  (Classics Catalog)\n\n…and more. Full details: play.st/4eAWngg",
       "texto_limpio": "Out now on PlayStation Plus: Death Stranding 2: On the Beach (Game Catalog) Atomfall (Game Catalog) Dragon Quest III HD-2D Remake (Game Catalog) Soul Reaver 2 (Classics Catalog) Freedom Wars Remastered (Classics Catalog) …and more. Full details:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreig7shnxtzx7ry4itpgg64lxbclsur4pt6fem2ivskmynuhyg5gxby",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreig7shnxtzx7ry4itpgg64lxbclsur4pt6fem2ivskmynuhyg5gxby",
+          "alt": "",
+          "ancho": 2160,
+          "alto": 2160
+        },
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreiaqekxwxw75yvy6heb5kw2qwpvth2xo33zgc3qdphm7wdg6pkd4ne",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreiaqekxwxw75yvy6heb5kw2qwpvth2xo33zgc3qdphm7wdg6pkd4ne",
+          "alt": "",
+          "ancho": 2160,
+          "alto": 2160
+        },
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreigosn4rbls3xsg4hcbxo7s4acxwl6izsxptgbmcuu77mdhrga3h44",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreigosn4rbls3xsg4hcbxo7s4acxwl6izsxptgbmcuu77mdhrga3h44",
+          "alt": "",
+          "ancho": 2160,
+          "alto": 2160
+        },
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreifty3y4xibk6qya4dwmybwjh7ajod5owsjrii6uejo7qp2ipvw5eq",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreifty3y4xibk6qya4dwmybwjh7ajod5owsjrii6uejo7qp2ipvw5eq",
+          "alt": "",
+          "ancho": 2160,
+          "alto": 2160
+        }
+      ],
       "likes": 112,
       "reposts": 14,
       "respuestas": 10,
@@ -93,6 +217,16 @@
       "fecha": "2026-11-17T15:30:32.720Z",
       "texto": "Save on games and accessories with PlayStation’s Black Friday Deals. \n\nFull details: play.st/494Zgm1",
       "texto_limpio": "Save on games and accessories with PlayStation’s Black Friday Deals. Full details:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreicbugal7qlvujn3hoz4jhzienpod5tvyi4thyr3z76wq2o5yfnci4",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreicbugal7qlvujn3hoz4jhzienpod5tvyi4thyr3z76wq2o5yfnci4",
+          "alt": "Offer end dates vary by product. PS5® DualSense® wireless controllers offers end 12/07/2026; Dua/Sense Edge offers end 12/14/2026. Offers available on select products while supplies last. Excludes pre-orders.",
+          "ancho": 1078,
+          "alto": 1080
+        }
+      ],
       "likes": 59,
       "reposts": 9,
       "respuestas": 12,
@@ -103,6 +237,16 @@
       "fecha": "2026-11-17T14:01:36.393Z",
       "texto": "Over 1 billion home runs in MLB The Show 26 ⚾💥\n\nNext up, first details on MLB The Show 27 including returning Now & Later Packs: play.st/4A2biZe",
       "texto_limpio": "Over 1 billion home runs in MLB The Show 26 Next up, first details on MLB The Show 27 including returning Now & Later Packs:",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreicxrrlqp7axjmvuscksnqkqyuenak2uo3dbqaqy3ck7tdsajwmdd4/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreicxrrlqp7axjmvuscksnqkqyuenak2uo3dbqaqy3ck7tdsajwmdd4/thumbnail.jpg",
+          "alt": "",
+          "ancho": 2048,
+          "alto": 2048
+        }
+      ],
       "likes": 36,
       "reposts": 1,
       "respuestas": 13,
@@ -113,6 +257,16 @@
       "fecha": "2026-11-16T17:37:03.800Z",
       "texto": "Bond, the role is yours on PS5 in 007 First Light.",
       "texto_limpio": "Bond, the role is yours on PS5 in 007 First Light.",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreigh7w2r6oc3l4l4jnp6cnyaowalpsx37tmia4jyjbewhw5qsdn3ba",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreigh7w2r6oc3l4l4jnp6cnyaowalpsx37tmia4jyjbewhw5qsdn3ba",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        }
+      ],
       "likes": 199,
       "reposts": 12,
       "respuestas": 31,
@@ -123,6 +277,16 @@
       "fecha": "2026-11-16T16:22:13.801Z",
       "texto": "PlayStation’s Black Friday Deals are now live. \n\nDiscover what’s on offer: play.st/4Co55c3",
       "texto_limpio": "PlayStation’s Black Friday Deals are now live. Discover what’s on offer:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreifubilxlrvorag4ef25qeefgq2rz5de5idwn4mi64d5fheohyw3by",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreifubilxlrvorag4ef25qeefgq2rz5de5idwn4mi64d5fheohyw3by",
+          "alt": "Ends 11/30",
+          "ancho": 1080,
+          "alto": 1080
+        }
+      ],
       "likes": 87,
       "reposts": 12,
       "respuestas": 19,
@@ -133,6 +297,16 @@
       "fecha": "2026-11-15T11:10:09.810Z",
       "texto": "PlayStation’s Black Friday Deals start Nov 16. \n\nDiscover what’s on offer: play.st/4zs3OxV",
       "texto_limpio": "PlayStation’s Black Friday Deals start Nov 16. Discover what’s on offer:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreia5wit4wcf65okp4utf6qqvmse6hqmll3lm5qrk5xe3ddccictokq",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreia5wit4wcf65okp4utf6qqvmse6hqmll3lm5qrk5xe3ddccictokq",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        }
+      ],
       "likes": 105,
       "reposts": 16,
       "respuestas": 24,
@@ -143,6 +317,16 @@
       "fecha": "2026-11-13T15:01:53.735Z",
       "texto": "God of War Sons of Sparta launches on PS4 November 16\n\nTo celebrate, players on all platforms will get access to two new modes with a free update. Full details: play.st/4zF5HYJ",
       "texto_limpio": "God of War Sons of Sparta launches on PS4 November 16 To celebrate, players on all platforms will get access to two new modes with a free update. Full details:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreiffn3qbjfcd7toy5gr55raqfdr2roykewvtvdobd6x5lzut6ss7xa",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreiffn3qbjfcd7toy5gr55raqfdr2roykewvtvdobd6x5lzut6ss7xa",
+          "alt": "",
+          "ancho": 1920,
+          "alto": 1080
+        }
+      ],
       "likes": 99,
       "reposts": 8,
       "respuestas": 22,
@@ -153,6 +337,16 @@
       "fecha": "2026-11-13T14:01:28.111Z",
       "texto": "QSSR is coming to more PS5 titles, starting with Marvel’s Spider-Man 2 today.\n\nFind out how developers including Insomniac Games and Remedy benefit from the upscaling tech: play.st/3UuINUT",
       "texto_limpio": "QSSR is coming to more PS5 titles, starting with Marvel’s Spider-Man 2 today. Find out how developers including Insomniac Games and Remedy benefit from the upscaling tech:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreifyui2p6wc57umls7jnvkfqvtkf6pcffush6722yimqkztpcq3gye",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreifyui2p6wc57umls7jnvkfqvtkf6pcffush6722yimqkztpcq3gye",
+          "alt": "",
+          "ancho": 3840,
+          "alto": 2160
+        }
+      ],
       "likes": 122,
       "reposts": 18,
       "respuestas": 20,
@@ -163,6 +357,16 @@
       "fecha": "2026-11-12T22:31:17.530Z",
       "texto": "Grand Theft Auto VI launches on PS5 in one week.\n\nPre-orders available now: play.st/4ziEdam",
       "texto_limpio": "Grand Theft Auto VI launches on PS5 in one week. Pre-orders available now:",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreibxwa5726orcei3nqzifalrmksro22pojj3qmidli6bkck3majnai/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreibxwa5726orcei3nqzifalrmksro22pojj3qmidli6bkck3majnai/thumbnail.jpg",
+          "alt": "",
+          "ancho": 1920,
+          "alto": 1080
+        }
+      ],
       "likes": 188,
       "reposts": 23,
       "respuestas": 28,
@@ -173,6 +377,16 @@
       "fecha": "2026-11-10T16:31:07.400Z",
       "texto": "PlayStation Plus Extra and Premium welcome a host of games this November:\n\n📦 Death Stranding 2: On the Beach\n🏴‍☠️ Like a Dragon: Pirate Yakuza in Hawaii\n☢️ Atomfall\n🐉 Dragon Quest III HD-2D Remake\n\n…and more. Full details: play.st/4BSLqR1",
       "texto_limpio": "PlayStation Plus Extra and Premium welcome a host of games this November: Death Stranding 2: On the Beach Like a Dragon: Pirate Yakuza in Hawaii Atomfall Dragon Quest III HD-2D Remake …and more. Full details:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreiba2uwv2bhfluyymzz3nee4ezpqqpxvczx2uf6cwvood7ps42z5ai",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreiba2uwv2bhfluyymzz3nee4ezpqqpxvczx2uf6cwvood7ps42z5ai",
+          "alt": "Game library varies over time, country/region and plan. PS Plus is subject to a recurring subscription fee taken automatically until cancellation. Terms apply: play.st/psplus-usageterms",
+          "ancho": 4000,
+          "alto": 4000
+        }
+      ],
       "likes": 119,
       "reposts": 14,
       "respuestas": 23,
@@ -183,6 +397,16 @@
       "fecha": "2026-11-10T15:42:29.498Z",
       "texto": "Grand Theft Auto VI is the most pre-ordered game in PlayStation Store history!\n\nMark the occasion with a video showcasing why GTAVI plays best on PS5\n\nGet ready for launch on November 19 by clearing PS5 storage space and pre-loading today: play.st/4sRO05O",
       "texto_limpio": "Grand Theft Auto VI is the most pre-ordered game in PlayStation Store history! Mark the occasion with a video showcasing why GTAVI plays best on PS5 Get ready for launch on November 19 by clearing PS5 storage space and pre-loading today:",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreiavuljpozaopwayl2xnp36pp6n3xlnbhclypwog362jn32tzpugcy/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreiavuljpozaopwayl2xnp36pp6n3xlnbhclypwog362jn32tzpugcy/thumbnail.jpg",
+          "alt": "",
+          "ancho": 1920,
+          "alto": 1080
+        }
+      ],
       "likes": 187,
       "reposts": 28,
       "respuestas": 47,
@@ -193,6 +417,56 @@
       "fecha": "2026-11-10T15:00:33.387Z",
       "texto": "Peer into the Prism Collection on February 4 🧡💚🩶\n\nPre-orders are live today for the transparent DualSense controllers: play.st/4kJseio",
       "texto_limpio": "Peer into the Prism Collection on February 4 Pre-orders are live today for the transparent DualSense controllers:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreiaflsulbhdourf4w4zmfxnvrrfryxaitrgbmpwb7jjtjxbdonbdte",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreiaflsulbhdourf4w4zmfxnvrrfryxaitrgbmpwb7jjtjxbdonbdte",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        },
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreigo7iygrjyukup3owunsnkpobgjol7fozo6u2skcpbkhbfrx3543i",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreigo7iygrjyukup3owunsnkpobgjol7fozo6u2skcpbkhbfrx3543i",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        },
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreiehogxeunocaz4fiq6ev5rfqd53b2l6lrvsjrsqvzt42o65rhx4lm",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreiehogxeunocaz4fiq6ev5rfqd53b2l6lrvsjrsqvzt42o65rhx4lm",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        },
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreiaeanok55wousztk5tfnxw6dsutqbso4tq33gqbezzm4lkqk3lssi",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreiaeanok55wousztk5tfnxw6dsutqbso4tq33gqbezzm4lkqk3lssi",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        },
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreiejobcnnzu6ffaglbjisejnddpmjxhmymf5xqdp7seubd7usqwbie",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreiejobcnnzu6ffaglbjisejnddpmjxhmymf5xqdp7seubd7usqwbie",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        },
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreib5d6tjrsba2vhiwxkqur6fcuqqee4qjfjnqwnxvldqdbsyxbkrum",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreib5d6tjrsba2vhiwxkqur6fcuqqee4qjfjnqwnxvldqdbsyxbkrum",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        }
+      ],
       "likes": 149,
       "reposts": 25,
       "respuestas": 27,
@@ -203,6 +477,16 @@
       "fecha": "2026-11-10T14:01:11.258Z",
       "texto": "Marathon Symbiosis update launches December 8, adding new PvE and PvP modes, weapons, and more: play.st/3WlcBnv",
       "texto_limpio": "Marathon Symbiosis update launches December 8, adding new PvE and PvP modes, weapons, and more:",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreiebhddqdsr326jwd3qmlt4jzcthyqgbqcfagggk37evykxpby2esm/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreiebhddqdsr326jwd3qmlt4jzcthyqgbqcfagggk37evykxpby2esm/thumbnail.jpg",
+          "alt": "",
+          "ancho": 1920,
+          "alto": 1080
+        }
+      ],
       "likes": 113,
       "reposts": 19,
       "respuestas": 17,
@@ -213,6 +497,16 @@
       "fecha": "2026-11-04T13:02:19.128Z",
       "texto": "Jin Sakai returns in Ghost of Yōtei: Most Wanted.\n\nFind out how the Ghost of Tsushima was brought back to life for the combat-survival roguelike mode: play.st/3V5voCP",
       "texto_limpio": "Jin Sakai returns in Ghost of Yōtei: Most Wanted. Find out how the Ghost of Tsushima was brought back to life for the combat-survival roguelike mode:",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreibj3iu66bssgdzspioxt672uwgm77gczu6i5afjjat256ckcfqyca/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreibj3iu66bssgdzspioxt672uwgm77gczu6i5afjjat256ckcfqyca/thumbnail.jpg",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        }
+      ],
       "likes": 113,
       "reposts": 10,
       "respuestas": 29,
@@ -223,6 +517,16 @@
       "fecha": "2026-11-03T15:29:44.493Z",
       "texto": "Get ready for Grand Theft Auto VI by pre-loading the game on PS5 beginning November 10. Also be sure to clear 212GB of storage space.\n\nPre-orders available now: play.st/4iDhY93",
       "texto_limpio": "Get ready for Grand Theft Auto VI by pre-loading the game on PS5 beginning November 10. Also be sure to clear 212GB of storage space. Pre-orders available now:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreihabm3gntaqd7rg6nbznxlk2zm5swt2qnfz4svmduqe3fmyuna4ta",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreihabm3gntaqd7rg6nbznxlk2zm5swt2qnfz4svmduqe3fmyuna4ta",
+          "alt": "",
+          "ancho": 4000,
+          "alto": 4000
+        }
+      ],
       "likes": 168,
       "reposts": 39,
       "respuestas": 58,
@@ -233,6 +537,16 @@
       "fecha": "2026-11-03T13:06:06.560Z",
       "texto": "New poisonous Terminid types are spawning today in Helldivers 2, exterminate now: play.st/4A6YQXM",
       "texto_limpio": "New poisonous Terminid types are spawning today in Helldivers 2, exterminate now:",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreid62j7rntzetkltw6viceji4fdw5vsxge5fzs4xpkalkwe7dkph2u/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreid62j7rntzetkltw6viceji4fdw5vsxge5fzs4xpkalkwe7dkph2u/thumbnail.jpg",
+          "alt": "",
+          "ancho": 1920,
+          "alto": 1080
+        }
+      ],
       "likes": 59,
       "reposts": 7,
       "respuestas": 16,
@@ -243,6 +557,16 @@
       "fecha": "2026-11-03T11:19:32.774Z",
       "texto": "PlayStation Store’s Black Friday Deals start Nov 4. \n\nPreview some of the titles that will be on sale: play.st/4kvteGL",
       "texto_limpio": "PlayStation Store’s Black Friday Deals start Nov 4. Preview some of the titles that will be on sale:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreihh47eob3uu5yvaqtq2vpg2gqqwzqjlo2stz7v7ylmvqm6dm2bbte",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreihh47eob3uu5yvaqtq2vpg2gqqwzqjlo2stz7v7ylmvqm6dm2bbte",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        }
+      ],
       "likes": 106,
       "reposts": 15,
       "respuestas": 43,
@@ -253,6 +577,16 @@
       "fecha": "2026-11-02T15:10:25.344Z",
       "texto": "This month on PlayStation\n\n🦖 November 3 - Godzilla: Destroy All Monsters Melee Remastered\n🤖 November 4 - Void/Breaker\n🌱 November 5  - Where The Seeds Fall\n🧌 November 10  - Warhammer Survivors\n🦔 November 12  - Sonic Pico Park\n🐎 November 12 - Barbie Rewind\n🌆 November 19  - Grand Theft Auto VI",
       "texto_limpio": "This month on PlayStation November 3 - Godzilla: Destroy All Monsters Melee Remastered November 4 - Void/Breaker November 5 - Where The Seeds Fall November 10 - Warhammer Survivors November 12 - Sonic Pico Park November 12 - Barbie Rewind November 19 - Grand Theft Auto VI",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreif6n5fk66knhvemi4nmml52wxjk5taa3e33aot77a7tmg6suacoli/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreif6n5fk66knhvemi4nmml52wxjk5taa3e33aot77a7tmg6suacoli/thumbnail.jpg",
+          "alt": "",
+          "ancho": 1920,
+          "alto": 1080
+        }
+      ],
       "likes": 103,
       "reposts": 13,
       "respuestas": 23,
@@ -263,6 +597,16 @@
       "fecha": "2026-11-02T14:02:17.473Z",
       "texto": "Godzilla Destroy All Monsters Melee Remastered smashes onto PS5 tomorrow. \n\nFind out which kaiju fits your playstyle: play.st/4BLXBPJ",
       "texto_limpio": "Godzilla Destroy All Monsters Melee Remastered smashes onto PS5 tomorrow. Find out which kaiju fits your playstyle:",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreihkd3c2fvrcgrxu2x6v5g7y3fy5hjrxorvlmjlaodp6pmhk7wt2xm/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreihkd3c2fvrcgrxu2x6v5g7y3fy5hjrxorvlmjlaodp6pmhk7wt2xm/thumbnail.jpg",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        }
+      ],
       "likes": 97,
       "reposts": 12,
       "respuestas": 17,
@@ -273,6 +617,16 @@
       "fecha": "2026-11-02T11:03:55.853Z",
       "texto": "Marking 2️⃣0️⃣ years of PlayStation Store\n\nPlayStation Studios and third-party devs reflect on games that surprised them most from the past two decades: play.st/4A7m28z",
       "texto_limpio": "Marking years of PlayStation Store PlayStation Studios and third-party devs reflect on games that surprised them most from the past two decades:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreiep27yk2xdx65nvbmvck67ws5ln7om36vaa5ozf4b5v4law6uilem",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreiep27yk2xdx65nvbmvck67ws5ln7om36vaa5ozf4b5v4law6uilem",
+          "alt": "",
+          "ancho": 2160,
+          "alto": 2160
+        }
+      ],
       "likes": 169,
       "reposts": 20,
       "respuestas": 83,
@@ -283,6 +637,16 @@
       "fecha": "2026-10-31T00:43:43.388Z",
       "texto": "Find the perfect look to haunt Ezo this Halloween weekend. \n\nUnlock armor sets inspired by iconic games in Ghost of Yōtei: Most Wanted.",
       "texto_limpio": "Find the perfect look to haunt Ezo this Halloween weekend. Unlock armor sets inspired by iconic games in Ghost of Yōtei: Most Wanted.",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreihf7pmhcw5up6cmtqy4xbbxtgmdjkivo4jdy5voffvkl5uw2b7lai/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreihf7pmhcw5up6cmtqy4xbbxtgmdjkivo4jdy5voffvkl5uw2b7lai/thumbnail.jpg",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        }
+      ],
       "likes": 208,
       "reposts": 22,
       "respuestas": 28,
@@ -293,6 +657,24 @@
       "fecha": "2026-10-29T14:01:18.520Z",
       "texto": "Pre-orders for the PlayStation Pulse wireless headset (White and Midnight Black) begin today 🎧\n\nLearn more ahead of the November 19 launch: play.st/4hZ9PN5",
       "texto_limpio": "Pre-orders for the PlayStation Pulse wireless headset (White and Midnight Black) begin today Learn more ahead of the November 19 launch:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreiejpojgpaghebgttfv3wyfszdh2z4xc3vt65o7y5yx55pfud4pi7m",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreiejpojgpaghebgttfv3wyfszdh2z4xc3vt65o7y5yx55pfud4pi7m",
+          "alt": "",
+          "ancho": 3600,
+          "alto": 2400
+        },
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreignsylpmzqvcjdiwkxuvqgzpv5zajmlmgce6np4otwmcoryxwohta",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreignsylpmzqvcjdiwkxuvqgzpv5zajmlmgce6np4otwmcoryxwohta",
+          "alt": "",
+          "ancho": 3600,
+          "alto": 2400
+        }
+      ],
       "likes": 67,
       "reposts": 7,
       "respuestas": 34,
@@ -303,6 +685,16 @@
       "fecha": "2026-10-28T15:01:27.744Z",
       "texto": "Introducing the transparent Prism Collection, launching February 4\n\n🧡 Flare Orange\n💚 Emerald Green\n🩶 Graphite Gray\n\nFirst details on the DualSense controllers: play.st/47QnvE7",
       "texto_limpio": "Introducing the transparent Prism Collection, launching February 4 Flare Orange Emerald Green Graphite Gray First details on the DualSense controllers:",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreiekolfuwqd6ldvf27q3tsffpwaw6tm2h5jhmncgnxazrgbkyqys34/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreiekolfuwqd6ldvf27q3tsffpwaw6tm2h5jhmncgnxazrgbkyqys34/thumbnail.jpg",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        }
+      ],
       "likes": 243,
       "reposts": 32,
       "respuestas": 88,
@@ -313,6 +705,16 @@
       "fecha": "2026-10-28T13:04:04.386Z",
       "texto": "Suit up as Astro Bot in Rayman Legends Retold on PS5 December 3. \n\nFind out how Astro’s sleek, futuristic aesthetic was adapted for Rayman's universe: play.st/4e2BMRA",
       "texto_limpio": "Suit up as Astro Bot in Rayman Legends Retold on PS5 December 3. Find out how Astro’s sleek, futuristic aesthetic was adapted for Rayman's universe:",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreigv6sfbqposj2vyxguur4j7ayrhlc7vlhivcyevh72tw4z6oho22y/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreigv6sfbqposj2vyxguur4j7ayrhlc7vlhivcyevh72tw4z6oho22y/thumbnail.jpg",
+          "alt": "",
+          "ancho": 1920,
+          "alto": 1080
+        }
+      ],
       "likes": 179,
       "reposts": 13,
       "respuestas": 26,
@@ -323,6 +725,24 @@
       "fecha": "2026-10-27T17:42:28.626Z",
       "texto": "Available now in PlayStation Plus Game Catalog:\n\n🧟‍♀️ Poppy Playtime: Chapter 2\n✨ Tales of Arise - Beyond the Dawn Edition\n🏍️ Monster Energy Supercross 25 - The Official Video Game\n\n…and more. Full details: play.st/4zRYJzf",
       "texto_limpio": "Available now in PlayStation Plus Game Catalog: Poppy Playtime: Chapter 2 Tales of Arise - Beyond the Dawn Edition Monster Energy Supercross 25 - The Official Video Game …and more. Full details:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreigx55ashxbps6xrpopojkbgxg3altulgacakz4re27z5wocvdclxa",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreigx55ashxbps6xrpopojkbgxg3altulgacakz4re27z5wocvdclxa",
+          "alt": "",
+          "ancho": 3840,
+          "alto": 2160
+        },
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreidatx7n6bv3go5kpijnfafdnetb2fax5kjuerhpi3zzwzqwtaa2k4",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreidatx7n6bv3go5kpijnfafdnetb2fax5kjuerhpi3zzwzqwtaa2k4",
+          "alt": "",
+          "ancho": 3840,
+          "alto": 2160
+        }
+      ],
       "likes": 60,
       "reposts": 3,
       "respuestas": 25,
@@ -333,6 +753,16 @@
       "fecha": "2026-10-26T10:03:37.508Z",
       "texto": "Celebrate Helldivers 2 Liberty Day 2026 with in-game gifts starting today 🫡\n\nLearn about the Retro rifle gift, community minigames, ship adornments, Super Merch, and more: play.st/4yDuwmv",
       "texto_limpio": "Celebrate Helldivers 2 Liberty Day 2026 with in-game gifts starting today Learn about the Retro rifle gift, community minigames, ship adornments, Super Merch, and more:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreifnvvtjfsjggv3kyumnd6sntwcm4h66td77hiq5p5pfw6hg6vzesi",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreifnvvtjfsjggv3kyumnd6sntwcm4h66td77hiq5p5pfw6hg6vzesi",
+          "alt": "",
+          "ancho": 1920,
+          "alto": 1080
+        }
+      ],
       "likes": 93,
       "reposts": 7,
       "respuestas": 30,
@@ -343,6 +773,16 @@
       "fecha": "2026-10-23T18:10:28.436Z",
       "texto": "It's time to go, Operators\n\nExplore campaign, DMZ, and multiplayer in Call of Duty: Modern Warfare 4, out now on PS5: play.st/4Ab9Dk7",
       "texto_limpio": "It's time to go, Operators Explore campaign, DMZ, and multiplayer in Call of Duty: Modern Warfare 4, out now on PS5:",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreigjtm5lb7gzeym3bpvewp4lxmgx5f6idileevrnuissnhhykg7uve/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreigjtm5lb7gzeym3bpvewp4lxmgx5f6idileevrnuissnhhykg7uve/thumbnail.jpg",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        }
+      ],
       "likes": 54,
       "reposts": 6,
       "respuestas": 30,
@@ -353,6 +793,16 @@
       "fecha": "2026-10-22T14:45:25.293Z",
       "texto": "Celebrating three decades of The Real Driving Simulator\n\nThe Gran Turismo Limited Edition DualSense wireless controller launches December 10. Pre-orders are live today: play.st/4yWPFJs",
       "texto_limpio": "Celebrating three decades of The Real Driving Simulator The Gran Turismo Limited Edition DualSense wireless controller launches December 10. Pre-orders are live today:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreighiruc4dtudf75tt6cyttklibjtq2jqpptq6q4ngx6hjo5nublli",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreighiruc4dtudf75tt6cyttklibjtq2jqpptq6q4ngx6hjo5nublli",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        }
+      ],
       "likes": 101,
       "reposts": 9,
       "respuestas": 39,
@@ -363,6 +813,16 @@
       "fecha": "2026-10-22T14:01:20.260Z",
       "texto": "Sharpen your in-game photography skills with this Marvel's Wolverine photo mode guide.\n\nIncludes tips on lighting, posing, and Action Figure mode: play.st/488yVmJ",
       "texto_limpio": "Sharpen your in-game photography skills with this Marvel's Wolverine photo mode guide. Includes tips on lighting, posing, and Action Figure mode:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreidnkf4q6rcnxsihvgxyvwm5x3gb2tyyzs5kcdpg7cvoqrmjqnn26u",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreidnkf4q6rcnxsihvgxyvwm5x3gb2tyyzs5kcdpg7cvoqrmjqnn26u",
+          "alt": "",
+          "ancho": 3840,
+          "alto": 2160
+        }
+      ],
       "likes": 64,
       "reposts": 6,
       "respuestas": 27,
@@ -373,6 +833,16 @@
       "fecha": "2026-10-22T12:01:35.099Z",
       "texto": "Celebrate 30 years of Lara Croft's PlayStation adventures 🎒\n\nLearn how she's being reimagined in Tomb Raider: Legacy of Atlantis play.st/4zGbAVc",
       "texto_limpio": "Celebrate 30 years of Lara Croft's PlayStation adventures Learn how she's being reimagined in Tomb Raider: Legacy of Atlantis",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreih5sl4caji4j433lcveza3cj2nsq4mp67ld2pdkirwu6jedaik53u/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreih5sl4caji4j433lcveza3cj2nsq4mp67ld2pdkirwu6jedaik53u/thumbnail.jpg",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        }
+      ],
       "likes": 206,
       "reposts": 34,
       "respuestas": 44,
@@ -383,6 +853,16 @@
       "fecha": "2026-10-21T15:01:00.400Z",
       "texto": "The PlayStation Pulse wireless headset (White and Midnight Black) releases in select regions starting November 19 🎧\n\nPre-orders begin on October 29. Full details: play.st/4hZ9PN5",
       "texto_limpio": "The PlayStation Pulse wireless headset (White and Midnight Black) releases in select regions starting November 19 Pre-orders begin on October 29. Full details:",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreihe4qe7nucbylj42jjvkd5qxhgya54k2l4kttuynk5y2zgzctdw34/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreihe4qe7nucbylj42jjvkd5qxhgya54k2l4kttuynk5y2zgzctdw34/thumbnail.jpg",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        }
+      ],
       "likes": 79,
       "reposts": 12,
       "respuestas": 44,
@@ -393,6 +873,40 @@
       "fecha": "2026-10-20T17:53:56.780Z",
       "texto": "Out now on PlayStation Plus:\n\n💰 Mafia: The Old Country (Game Catalog)\n🏹 Horizon Forbidden West (Game Catalog)\n🍄‍🟫 Mycopunk (Game Catalog)\n🦖 Dino Crisis 2 (Classics Catalog)\n🎢 RollerCoaster Tycoon 3 Complete Edition (Classics Catalog)\n\n…and more. Full details: play.st/4i8xeud",
       "texto_limpio": "Out now on PlayStation Plus: Mafia: The Old Country (Game Catalog) Horizon Forbidden West (Game Catalog) Mycopunk (Game Catalog) Dino Crisis 2 (Classics Catalog) RollerCoaster Tycoon 3 Complete Edition (Classics Catalog) …and more. Full details:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreifis265oxqroludgeevd3xttf5mjb7qwlpbf5frf6ub27haytuwei",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreifis265oxqroludgeevd3xttf5mjb7qwlpbf5frf6ub27haytuwei",
+          "alt": "",
+          "ancho": 3840,
+          "alto": 2160
+        },
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreidiyhgcw4utnp2gbb4ta7qigb6c2fhwp6cdwmds2qztqdfn5wrdci",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreidiyhgcw4utnp2gbb4ta7qigb6c2fhwp6cdwmds2qztqdfn5wrdci",
+          "alt": "",
+          "ancho": 3840,
+          "alto": 2160
+        },
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreig6v3z6wqe4qfuh4krg25asayeqehchzazanl4p3otfm6x577rd3i",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreig6v3z6wqe4qfuh4krg25asayeqehchzazanl4p3otfm6x577rd3i",
+          "alt": "",
+          "ancho": 3840,
+          "alto": 2160
+        },
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreigdypoa53baoorbu7sctsxsmk4ustmaplfnmptidqmf43o3ghbhki",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreigdypoa53baoorbu7sctsxsmk4ustmaplfnmptidqmf43o3ghbhki",
+          "alt": "",
+          "ancho": 3840,
+          "alto": 2160
+        }
+      ],
       "likes": 141,
       "reposts": 16,
       "respuestas": 31,
@@ -403,6 +917,16 @@
       "fecha": "2026-10-20T13:00:48.402Z",
       "texto": "Level up with LISA x PlayStation: play.st/LISA",
       "texto_limpio": "Level up with LISA x PlayStation:",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreigit7q32idi5klevefvaao6crxi3ju3xz6pyb7pqfx2qkfufh4woy/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreigit7q32idi5klevefvaao6crxi3ju3xz6pyb7pqfx2qkfufh4woy/thumbnail.jpg",
+          "alt": "",
+          "ancho": 1920,
+          "alto": 1080
+        }
+      ],
       "likes": 70,
       "reposts": 12,
       "respuestas": 42,
@@ -413,6 +937,16 @@
       "fecha": "2026-10-16T18:10:57.157Z",
       "texto": "Gear up 🎒\n\nCall of Duty: Modern Warfare 4 deploys in one week, and you can hop into the campaign today with early access.",
       "texto_limpio": "Gear up Call of Duty: Modern Warfare 4 deploys in one week, and you can hop into the campaign today with early access.",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreiharz44ljvoyne5ey5wt5q4zset3fdbi3boltexhe7feml5iaxrjy/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreiharz44ljvoyne5ey5wt5q4zset3fdbi3boltexhe7feml5iaxrjy/thumbnail.jpg",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        }
+      ],
       "likes": 57,
       "reposts": 7,
       "respuestas": 29,
@@ -423,6 +957,16 @@
       "fecha": "2026-10-16T14:00:08.833Z",
       "texto": "100 million+ songs. Zero ads. 🎶\n\nGet up to 2 months of Apple Music on PS5 at no extra cost. Offer details: play.st/47nWO9G",
       "texto_limpio": "100 million+ songs. Zero ads. Get up to 2 months of Apple Music on PS5 at no extra cost. Offer details:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreidgkm5dggl4xf2hxrk7r4e3vna7wnkqn4pm4wnnl7zy7puckvzvg4",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreidgkm5dggl4xf2hxrk7r4e3vna7wnkqn4pm4wnnl7zy7puckvzvg4",
+          "alt": "",
+          "ancho": 1920,
+          "alto": 1124
+        }
+      ],
       "likes": 64,
       "reposts": 5,
       "respuestas": 33,
@@ -433,6 +977,16 @@
       "fecha": "2026-10-14T15:32:01.878Z",
       "texto": "PlayStation Plus Extra and Premium welcome a host of games this October:\n\n💰 Mafia: The Old Country\n🏹 Horizon Forbidden West\n🍄‍ Mycopunk\n🧟‍♀️ Poppy Playtime: Chapter 2\n\n…and more. Full details: play.st/47ePA7T",
       "texto_limpio": "PlayStation Plus Extra and Premium welcome a host of games this October: Mafia: The Old Country Horizon Forbidden West Mycopunk Poppy Playtime: Chapter 2 …and more. Full details:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreifi273xd5uhqacz2hxbbubkq4424y532vpito77svoljruwq2cfam",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreifi273xd5uhqacz2hxbbubkq4424y532vpito77svoljruwq2cfam",
+          "alt": "",
+          "ancho": 4000,
+          "alto": 4000
+        }
+      ],
       "likes": 119,
       "reposts": 16,
       "respuestas": 32,
@@ -443,6 +997,16 @@
       "fecha": "2026-10-14T13:01:39.649Z",
       "texto": "The Gran Turismo Limited Edition DualSense wireless controller launches December 10\n\nLearn all about pre-order details and today's Spec IV - Part 1 update launch: play.st/4yJwNgR",
       "texto_limpio": "The Gran Turismo Limited Edition DualSense wireless controller launches December 10 Learn all about pre-order details and today's Spec IV - Part 1 update launch:",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreichdhazvl6ld6krcyebsqqpmf4mefsdmh3hbfc4wqjoz4um5i4a34/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreichdhazvl6ld6krcyebsqqpmf4mefsdmh3hbfc4wqjoz4um5i4a34/thumbnail.jpg",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        }
+      ],
       "likes": 96,
       "reposts": 14,
       "respuestas": 45,
@@ -453,6 +1017,16 @@
       "fecha": "2026-10-13T14:01:20.482Z",
       "texto": "The God of War Laufey - Collector Box pre-orders begin today, including:\n\n💡 Light-Up Faye Statue\n🃏 51-Card Oracle Deck\n🎨 Mini Artbook\n\nFull details: play.st/47Sf37c",
       "texto_limpio": "The God of War Laufey - Collector Box pre-orders begin today, including: Light-Up Faye Statue 51-Card Oracle Deck Mini Artbook Full details:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreifanpqu6teagropg4bic252he5gwxbafscso6j76qtik7mkviksju",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreifanpqu6teagropg4bic252he5gwxbafscso6j76qtik7mkviksju",
+          "alt": "",
+          "ancho": 2700,
+          "alto": 2700
+        }
+      ],
       "likes": 139,
       "reposts": 23,
       "respuestas": 89,
@@ -463,6 +1037,16 @@
       "fecha": "2026-10-07T17:01:50.535Z",
       "texto": "Phoenix Cyclops joins MARVEL Tōkon: Fighting Souls on November 2\n\nDetails on the first Year 1 DLC character, PlayStation Plus Game Trial, and more: play.st/4yv3f6C",
       "texto_limpio": "Phoenix Cyclops joins MARVEL Tōkon: Fighting Souls on November 2 Details on the first Year 1 DLC character, PlayStation Plus Game Trial, and more:",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreied2fltrdzbzcu5vcstw6oejygsvctwsp4wan54fzpjilnnwltkve/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreied2fltrdzbzcu5vcstw6oejygsvctwsp4wan54fzpjilnnwltkve/thumbnail.jpg",
+          "alt": "",
+          "ancho": 1920,
+          "alto": 1080
+        }
+      ],
       "likes": 134,
       "reposts": 27,
       "respuestas": 43,
@@ -473,6 +1057,16 @@
       "fecha": "2026-10-02T23:36:53.969Z",
       "texto": "In this week's Official PlayStation Podcast - Atsu actor Erika Ishii joins to celebrate the launch of Ghost of Yōtei Complete Edition: play.st/Ep549",
       "texto_limpio": "In this week's Official PlayStation Podcast - Atsu actor Erika Ishii joins to celebrate the launch of Ghost of Yōtei Complete Edition:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreienrky5q5eij6a7lh7yyqsmij2cu5pp2d52p5db5ikfsbz3cilk2q",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreienrky5q5eij6a7lh7yyqsmij2cu5pp2d52p5db5ikfsbz3cilk2q",
+          "alt": "",
+          "ancho": 1920,
+          "alto": 1080
+        }
+      ],
       "likes": 265,
       "reposts": 14,
       "respuestas": 38,
@@ -483,6 +1077,16 @@
       "fecha": "2026-10-02T14:01:17.217Z",
       "texto": "Hello LISA 👀\n\nThe LISA Limited Edition DualSense Wireless controller is available for pre-order starting today. Read more about the collaboration: play.st/LISA",
       "texto_limpio": "Hello LISA The LISA Limited Edition DualSense Wireless controller is available for pre-order starting today. Read more about the collaboration:",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreih46hzhqnsi3xawlfbqvjt6btqdgs7m65yzomifgchtxpus4h4m4y",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:3nfshkzomgboapasu6amkhui/bafkreih46hzhqnsi3xawlfbqvjt6btqdgs7m65yzomifgchtxpus4h4m4y",
+          "alt": "",
+          "ancho": 1920,
+          "alto": 1080
+        }
+      ],
       "likes": 96,
       "reposts": 20,
       "respuestas": 54,
@@ -493,6 +1097,16 @@
       "fecha": "2026-10-02T13:01:32.404Z",
       "texto": "Ghost of Yōtei Complete Edition is out now. \n\nCelebrate the game’s first year anniversary with Atsu actor Erika Ishii: play.st/3Tv71xH",
       "texto_limpio": "Ghost of Yōtei Complete Edition is out now. Celebrate the game’s first year anniversary with Atsu actor Erika Ishii:",
+      "multimedia": [
+        {
+          "tipo": "video",
+          "url": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreifad35crgevkndjyaw3zcj2yzxm5o2zkomt7fm2il7vqpqthkjoay/playlist.m3u8",
+          "miniatura": "https://video.bsky.app/watch/did%3Aplc%3A3nfshkzomgboapasu6amkhui/bafkreifad35crgevkndjyaw3zcj2yzxm5o2zkomt7fm2il7vqpqthkjoay/thumbnail.jpg",
+          "alt": "",
+          "ancho": 1080,
+          "alto": 1080
+        }
+      ],
       "likes": 224,
       "reposts": 20,
       "respuestas": 43,
@@ -502,8 +1116,8 @@
   "analisis": {
     "modelo": "openai/gpt-oss-120b",
     "fecha": {
-      "$date": "2026-11-23T18:18:06.764Z"
+      "$date": "2026-11-23T19:11:17.762Z"
     },
-    "texto": "ANÁLISIS DEL PERFIL @PLAYSTATION.COM EN BLUESKY  \n\n1. RESUMEN DEL PERFIL  \nEl perfil de PlayStation.com publica de forma continua contenido centrado en el ecosistema PlayStation: lanzamientos de juegos, ofertas especiales (Black Friday), novedades de hardware, campañas de pre‑pedido y recordatorios de eventos. En los últimos 49 posts (aproximadamente 50 días) la frecuencia es alta, con al menos una publicación diaria y picos de 3‑4 posts en algunos días. El engagement total varía ampliamente, con picos de likes (más de 200) y respuestas (más de 80) en publicaciones relacionadas con grandes lanzamientos (GTA VI, Gran Turismo, God of War) y eventos de preventa.\n\n2. TEMAS PRINCIPALES  \n- Lanzamientos y pre‑cargas de videojuegos (≈45 %): GTA VI, God of War, Ghost of Yōtei, Helldivers 2, etc.  \n- Promociones y ofertas (Black Friday, descuentos, PlayStation Plus) (≈30 %): varias publicaciones anuncian “Black Friday Deals”, descuentos en accesorios y juegos, y listas de títulos disponibles en PlayStation Plus.  \n- Hardware y ediciones especiales (≈15 %): DualSense Transparent, Prism Collection, Limited‑Edition controllers, Pulse headset.  \n- Eventos y contenido de comunidad (≈10 %): recordatorios de pre‑load, fechas de lanzamiento, concursos implícitos (ej. “Mark the occasion”), y menciones a podcasts o colaboraciones.  \n\n3. TONO Y SENTIMIENTO GENERAL  \nEl tono es mayormente informativo y promocional, con un estilo entusiasta y de llamado a la acción (“Discover”, “Mark the occasion”, “Learn more”). No aparecen expresiones negativas; el sentimiento se percibe como positivo y orientado a la expectativa, resaltando beneficios (“save on games”, “most pre‑ordered game”, “celebrate”).  \n\n4. TIPO DE CONTENIDO  \n- Promoción de ventas/ofertas (Black Friday Deals, descuentos en accesorios).  \n- Noticias de lanzamientos (anuncios de disponibilidad, fechas de salida, pre‑load).  \n- Anuncios de hardware y ediciones limitadas (controladores, headset).  \n- Contenido de comunidad (recordatorios, llamadas a pre‑carga, podcasts).  \n- Actualizaciones de catálogo PlayStation Plus (listados de juegos disponibles).  \n\n5. ENGAGEMENT: TIPOS DE PUBLICACIÓN CON MAYOR INTERACCIÓN  \n- Grandes lanzamientos de franquicias (GTA VI, God of War, Gran Turismo) generan los niveles más altos de respuestas y citas (ej. 30 respuestas y 6 citas, 83 respuestas y 20 citas).  \n- Ofertas Black Friday obtienen altos likes pero menos respuestas, indicando interés pasivo.  \n- Anuncios de hardware exclusivo (Transparent DualSense, Prism Collection) alcanzan likes elevados (≈200) y citas moderadas.  \n- Publicaciones con llamado a acción específico (pre‑load, clear storage) muestran mayor número de respuestas (≥30).  \n\n6. FRECUENCIA DE PUBLICACIÓN  \n- Promedio: ~1 publicación por día.  \n- Días con mayor actividad: 2026‑11‑03 (3 posts), 2026‑10‑28 (2 posts), 2026‑10‑22 (3 posts).  \n- Ritmo constante durante la segunda mitad de noviembre, con incremento de posts de ofertas a partir del 15 nov.  \n\n7. PÚBLICO OBJETIVO  \n- Jugadores de PlayStation 5 que siguen lanzamientos de títulos AAA y juegos de catálogo.  \n- Consumidores interesados en ofertas y descuentos (Black Friday, PlayStation Plus).  \n- Fans de coleccionables y hardware premium (controladores edición limitada, headset).  \n- Comunidad que busca información práctica (pre‑load, espacio de almacenamiento, fechas de lanzamiento).  \n\n8. CONCLUSIONES Y RECOMENDACIONES  \n- Mantener la combinación actual de anuncios de grandes lanzamientos y promociones de ofertas, ya que ambos generan engagement alto pero de naturaleza distinta (interacción vs likes).  \n- Potenciar los posts con llamado a la acción (pre‑load, clear storage) que generan más respuestas; incluir preguntas directas para estimular conversaciones.  \n- Aprovechar el pico de interés en ediciones limitadas publicando contenido visual adicional (aunque no analizable aquí) y ofreciendo enlaces a pre‑orders para convertir el alto número de likes en ventas.  \n- Optimizar la calendarización de Black Friday: publicar recordatorios más frecuentes en la semana previa al inicio de las ofertas para maximizar la exposición.  \n- Diversificar ligeramente el contenido con más posts de comunidad (ej. encuestas, preguntas sobre experiencias de juego) para aumentar la tasa de respuestas y citas, equilibrando la carga informativa con interacción.  \n- Monitorear la reacción a cada categoría (porcentaje de respuestas vs likes) para ajustar el peso de cada tipo de publicación en futuros calendarios, priorizando aquellos que generan mayor conversación.  \n\nEste análisis se basa exclusivamente en los datos de interacciones y textos proporcionados y refleja el comportamiento actual del perfil en Bluesky."
+    "texto": "INFORME DE ANÁLISIS DEL PERFIL @PLAYSTATION.COM EN BLUESKY  \n\n1. RESUMEN DEL PERFIL  \nEl perfil ha publicado 50 contenidos en los últimos 53 días (del 2026‑10‑02 al 2026‑11‑23), lo que representa una frecuencia media de 0,94 publicaciones por día y cobertura en 27 de los 53 días del periodo analizado. Las publicaciones generan en promedio 174 interacciones totales (suma de likes, reposts, respuestas y citas). El contenido se reparte entre imágenes (28 publicaciones) y videos (22 publicaciones).  \n\n2. TEMAS PRINCIPALES (PORCENTAJE APROXIMADO)  \n- Lanzamientos y pre‑ventas de juegos (especialmente *Grand Theft Auto VI* y títulos de PlayStation Plus): ≈ 35 %  \n- Ofertas y Black Friday (accesorios, juegos, suscripciones): ≈ 20 %  \n- Anuncios de hardware y ediciones especiales (DualSense, Prism Collection, Pulse headset): ≈ 15 %  \n- Promoción de PlayStation Plus (catálogo, nuevos títulos): ≈ 12 %  \n- Eventos y colaboraciones (podcasts, DLC, cross‑overs): ≈ 10 %  \n- Otros (actualizaciones, noticias de terceros, contenido comunitario): ≈ 8 %  \n\n3. TONO Y SENTIMIENTO GENERAL  \nEl tono es mayormente promocional y anunciador, con un enfoque informativo y entusiasta. No se observan publicaciones de tono crítico o polémico; el lenguaje invita a la compra, la pre‑carga o la participación en eventos. El sentimiento se percibe positivo, orientado a generar expectativa y urgencia (“Discover discounts”, “Launch tomorrow”, “Pre‑load now”).  \n\n4. TIPO DE CONTENIDO Y USO DE IMÁGENES Y VÍDEOS  \n- Promoción de productos (juegos, accesorios, suscripciones) → la mayor parte del contenido.  \n- Noticias de lanzamiento y fechas de disponibilidad.  \n- Interacción limitada con la comunidad (pocos “citas” y respuestas comparado con likes y reposts).  \n- Uso de imágenes en 28 publicaciones (media 169,8 interacciones) y videos en 22 publicaciones (media 179,3 interacciones).  \n- Algunas publicaciones combinan varias imágenes (ej. “imagen x4”, “imagen x6”) para destacar varios títulos o productos.  \n\n5. ENGAGEMENT  \n- Las publicaciones con mayor número de interacciones son videos y una imagen destacada:  \n  *2026‑10‑28* (video) 468 interacciones – “Introducing the transparent Prism Collection…”.  \n  *2026‑10‑02* (imagen) 319 interacciones – “In this week's Official PlayStation Podcast…”.  \n  *2026‑10‑13* (imagen) 301 interacciones – “The God of War Laufey - Collector Box…”.  \n  *2026‑11‑03* (imagen) 296 interacciones – “Get ready for Grand Theft Auto VI…”.  \n  *2026‑10‑22* (video) 294 interacciones – “Celebrate 30 years of Lara Croft's PlayStation adventures…”.  \n- En promedio, los videos superan ligeramente a las imágenes (179,3 vs 169,8), y las publicaciones con contenido de alto valor (lanzamientos de gran tirada, ediciones limitadas, eventos especiales) concentran la mayor parte del engagement.  \n\n6. FRECUENCIA DE PUBLICACIÓN  \n- Media de 0,94 publicaciones/día.  \n- Publicaciones en 27 de 53 días (≈ 51 % de los días).  \n- Picos de actividad coinciden con periodos de lanzamiento (últimos días de octubre y la segunda quincena de noviembre) y con eventos de ventas (Black Friday).  \n\n7. PÚBLICO OBJETIVO  \n- Jugadores de consola PlayStation 5, especialmente fans de franquicias de gran tirada como *Grand Theft Auto*, *God of War*, *Spider‑Man* y *Lara Croft*.  \n- Consumidores interesados en hardware y accesorios premium (DualSense, Pulse, Prism Collection).  \n- Suscriptores o potenciales suscriptores de PlayStation Plus que buscan catálogos de juegos y ofertas.  \n- Demografía probable: adultos jóvenes (18‑35 años), mayoritariamente usuarios con poder adquisitivo medio‑alto y alta afinidad por contenido de entretenimiento digital.  \n\n8. CONCLUSIONES Y RECOMENDACIONES  \n- Conclusiones: El perfil mantiene una estrategia de contenido altamente promocional, centrada en lanzamientos de títulos emblemáticos y ofertas de temporada. Los videos generan ligeramente más interacción que las imágenes, y las publicaciones que combinan anuncio de lanzamiento con llamada a la acción (“pre‑load now”, “pre‑orders available”) son las más efectivas. La frecuencia de publicación es suficiente para mantener presencia, pero se concentra en periodos clave, lo que maximiza el impacto.  \n\n- Recomendaciones:  \n  1. Incrementar contenido de video en torno a lanzamientos y ediciones especiales, dado su mayor rendimiento en engagement.  \n  2. Añadir más interacción comunitaria (preguntas abiertas, encuestas, retos) para elevar el número de respuestas y citas, diversificando el tipo de engagement más allá de likes y reposts.  \n  3. Programar publicaciones de recordatorio en los días previos a eventos de venta (Black Friday) para aprovechar la alta expectativa y aumentar conversiones.  \n  4. Aprovechar carruseles de imágenes (más de una imagen por publicación) en anuncios de catálogos PlayStation Plus, ya que las publicaciones con “imagen x4” y “imagen x6” muestran buena interacción.  \n  5. Seguir alineando lanzamientos de hardware con contenido de video que muestre características únicas (ej. Prism Collection), ya que los videos con foco en hardware registran los picos más altos de interacción.  \n  6. Monitorear la respuesta a publicaciones de contenido “behind‑the‑scenes” (p.ej., podcasts, entrevistas) que han generado altas cifras, para replicar ese formato y reforzar la conexión con la comunidad.  \n\nImplementar estas acciones debería fortalecer la relación con la audiencia, diversificar el engagement y mantener el perfil como referencia principal de información y promoción dentro del ecosistema PlayStation en Bluesky."
   }
 }
