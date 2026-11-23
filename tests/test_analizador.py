@@ -86,9 +86,19 @@ def test_prompt_pide_las_ocho_secciones():
         assert seccion in prompt
 
 
-def test_prompt_sigue_el_orden_contexto_feed_formato():
+def test_prompt_sigue_el_orden_contexto_feed_estadisticas_formato():
     prompt = analizador.construir_prompt("playstation.com", POSTS)
-    assert prompt.index("Eres un analista") < prompt.index("PUBLICACIONES:") < prompt.index("Redacta en español")
+    assert (prompt.index("Eres un analista") < prompt.index("PUBLICACIONES:")
+            < prompt.index("ESTADÍSTICAS CALCULADAS:") < prompt.index("Redacta en español"))
+
+
+def test_calcular_estadisticas():
+    estadisticas = analizador.calcular_estadisticas(POSTS)
+    assert "Total de publicaciones: 2" in estadisticas
+    assert "Periodo: del 2026-11-20 al 2026-11-23 (4 días)" in estadisticas
+    assert "Frecuencia media: 0.50 publicaciones al día" in estadisticas
+    assert "Publicaciones de tipo 'video': 1, interacciones medias 133.0 (mínimo 133, máximo 133)" in estadisticas
+    assert "Publicaciones de tipo 'imagen': 1, interacciones medias 38.0 (mínimo 38, máximo 38)" in estadisticas
 
 
 PROPORCION_CUADRADA = models.AppBskyEmbedDefs.AspectRatio(width=1080, height=1080)

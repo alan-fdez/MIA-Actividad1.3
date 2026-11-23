@@ -2,7 +2,7 @@ import os
 import re
 import emoji
 from collections import Counter
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from dotenv import load_dotenv
 from atproto import Client, models
 from pymongo import MongoClient
@@ -120,6 +120,26 @@ def describir_multimedia(multimedia):
     return descripcion
 
 
+def calcular_estadisticas(posts):
+    fechas = sorted(p["fecha"][:10] for p in posts)
+    dias = (date.fromisoformat(fechas[-1]) - date.fromisoformat(fechas[0])).days + 1
+    grupos = {}
+    for p in posts:
+        tipo = p["multimedia"][0]["tipo"] if p["multimedia"] else "sin multimedia"
+        grupos.setdefault(tipo, []).append(p["likes"] + p["reposts"] + p["respuestas"] + p["citas"])
+    lineas = [
+        f"Total de publicaciones: {len(posts)}",
+        f"Periodo: del {fechas[0]} al {fechas[-1]} ({dias} días)",
+        f"Frecuencia media: {len(posts) / dias:.2f} publicaciones al día",
+    ]
+    for tipo, valores in grupos.items():
+        lineas.append(
+            f"Publicaciones de tipo '{tipo}': {len(valores)}, interacciones medias "
+            f"{sum(valores) / len(valores):.1f} (mínimo {min(valores)}, máximo {max(valores)})"
+        )
+    return "\n".join(lineas)
+
+
 def construir_prompt(actor, posts):
     contexto = (
         "Eres un analista experto en redes sociales y marketing digital. "
@@ -146,12 +166,16 @@ def construir_prompt(actor, posts):
         "7. Público objetivo\n"
         "8. Conclusiones y recomendaciones\n"
         "Basa todas las afirmaciones únicamente en los datos proporcionados. "
-        "No cites frases literales que no aparezcan en las publicaciones. "
+        "Usa las estadísticas calculadas para todos los datos numéricos (totales, frecuencia y medias) "
+        "y no las recalcules. "
+        "No cites frases literales que no aparezcan en las publicaciones y, si citas alguna, "
+        "hazlo literalmente en su idioma original. "
         "No describas lo que muestran las imágenes o vídeos más allá de su texto alternativo, "
         "ya que no puedes verlos. "
         "Escribe en texto plano, sin formato Markdown, con los títulos de sección en mayúsculas."
     )
-    return f"{contexto}\n\nPUBLICACIONES:\n{feed}\n\n{formato}"
+    estadisticas = calcular_estadisticas(posts)
+    return f"{contexto}\n\nPUBLICACIONES:\n{feed}\n\nESTADÍSTICAS CALCULADAS:\n{estadisticas}\n\n{formato}"
 
 
 def analizar_con_groq(prompt):
