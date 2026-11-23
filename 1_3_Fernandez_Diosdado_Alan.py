@@ -46,6 +46,29 @@ def limpiar_texto(record):
     return texto
 
 
+def crear_media(tipo, url, miniatura, alt, proporcion):
+    return {
+        "tipo": tipo,
+        "url": url,
+        "miniatura": miniatura,
+        "alt": alt or "",
+        "ancho": proporcion.width if proporcion else None,
+        "alto": proporcion.height if proporcion else None,
+    }
+
+
+def extraer_multimedia(embed):
+    if isinstance(embed, models.AppBskyEmbedRecordWithMedia.View):
+        return extraer_multimedia(embed.media)
+    if isinstance(embed, models.AppBskyEmbedImages.View):
+        return [crear_media("imagen", img.fullsize, img.thumb, img.alt, img.aspect_ratio) for img in embed.images]
+    if isinstance(embed, models.AppBskyEmbedGallery.View):
+        return [crear_media("imagen", img.fullsize, img.thumbnail, img.alt, img.aspect_ratio) for img in embed.items]
+    if isinstance(embed, models.AppBskyEmbedVideo.View):
+        return [crear_media("video", embed.playlist, embed.thumbnail, embed.alt, embed.aspect_ratio)]
+    return []
+
+
 def obtener_feed(cliente, actor, limite):
     respuesta = cliente.get_author_feed(actor=actor, limit=limite, filter="posts_no_replies")
     posts = []
@@ -54,13 +77,15 @@ def obtener_feed(cliente, actor, limite):
             continue
         post = elemento.post
         texto_limpio = limpiar_texto(post.record)
-        if not texto_limpio:
+        multimedia = extraer_multimedia(post.embed)
+        if not texto_limpio and not multimedia:
             continue
         posts.append({
             "uri": post.uri,
             "fecha": post.record.created_at,
             "texto": post.record.text,
             "texto_limpio": texto_limpio,
+            "multimedia": multimedia,
             "likes": post.like_count,
             "reposts": post.repost_count,
             "respuestas": post.reply_count,
