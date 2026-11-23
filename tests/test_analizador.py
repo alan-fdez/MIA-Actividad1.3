@@ -47,9 +47,15 @@ def test_post_con_solo_enlace_queda_vacio():
 
 POSTS = [
     {"fecha": "2026-11-20T23:07:14.280Z", "texto": "GTA VI is here 🎉 play.st/GTAVIPS5",
-     "texto_limpio": "GTA VI is here", "likes": 103, "reposts": 8, "respuestas": 22, "citas": 0},
+     "texto_limpio": "GTA VI is here",
+     "multimedia": [{"tipo": "video", "url": "https://video.bsky.app/a/playlist.m3u8",
+                     "miniatura": "https://video.bsky.app/a/thumbnail.jpg", "alt": "", "ancho": 1920, "alto": 1080}],
+     "likes": 103, "reposts": 8, "respuestas": 22, "citas": 0},
     {"fecha": "2026-11-23T15:01:32.949Z", "texto": "Black Friday Deals: play.st/4ePZnW5",
-     "texto_limpio": "Black Friday Deals:", "likes": 28, "reposts": 0, "respuestas": 9, "citas": 1},
+     "texto_limpio": "Black Friday Deals:",
+     "multimedia": [{"tipo": "imagen", "url": "https://cdn.bsky.app/img/feed_fullsize/b",
+                     "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/b", "alt": "Ends 11/30", "ancho": 1080, "alto": 1080}],
+     "likes": 28, "reposts": 0, "respuestas": 9, "citas": 1},
 ]
 
 
@@ -61,8 +67,9 @@ def test_prompt_incluye_contexto_del_perfil():
 
 def test_prompt_incluye_cada_post_con_fecha_y_metricas():
     prompt = analizador.construir_prompt("playstation.com", POSTS)
-    assert "[2026-11-20] likes=103 reposts=8 respuestas=22 citas=0 | GTA VI is here" in prompt
-    assert "[2026-11-23] likes=28 reposts=0 respuestas=9 citas=1 | Black Friday Deals:" in prompt
+    assert "[2026-11-20] likes=103 reposts=8 respuestas=22 citas=0 | multimedia: video | GTA VI is here" in prompt
+    assert ("[2026-11-23] likes=28 reposts=0 respuestas=9 citas=1 | multimedia: imagen (alt: Ends 11/30) "
+            "| Black Friday Deals:") in prompt
 
 
 def test_prompt_usa_texto_limpio_y_no_el_original():

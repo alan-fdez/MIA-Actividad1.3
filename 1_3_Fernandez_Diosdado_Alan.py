@@ -1,6 +1,7 @@
 import os
 import re
 import emoji
+from collections import Counter
 from datetime import datetime, timezone
 from dotenv import load_dotenv
 from atproto import Client, models
@@ -108,16 +109,29 @@ def guardar_feed_mongo(actor, posts):
     return coleccion, resultado.inserted_id
 
 
+def describir_multimedia(multimedia):
+    if not multimedia:
+        return "sin multimedia"
+    tipos = Counter(m["tipo"] for m in multimedia)
+    descripcion = ", ".join(f"{tipo} x{n}" if n > 1 else tipo for tipo, n in tipos.items())
+    alts = [m["alt"] for m in multimedia if m["alt"]]
+    if alts:
+        descripcion += f" (alt: {' / '.join(alts)})"
+    return descripcion
+
+
 def construir_prompt(actor, posts):
     contexto = (
         "Eres un analista experto en redes sociales y marketing digital. "
         f"A continuación tienes las {len(posts)} publicaciones más recientes del perfil @{actor} "
         "en la red social Bluesky. Cada línea incluye la fecha, las métricas de interacción "
-        "(likes, reposts, respuestas y citas) y el texto de la publicación."
+        "(likes, reposts, respuestas y citas), el contenido multimedia adjunto (imágenes o vídeos, "
+        "con su texto alternativo si lo tiene) y el texto de la publicación."
     )
     feed = "\n".join(
         f"[{p['fecha'][:10]}] likes={p['likes']} reposts={p['reposts']} "
-        f"respuestas={p['respuestas']} citas={p['citas']} | {p['texto_limpio']}"
+        f"respuestas={p['respuestas']} citas={p['citas']} | multimedia: {describir_multimedia(p['multimedia'])} "
+        f"| {p['texto_limpio'] or '(sin texto)'}"
         for p in posts
     )
     formato = (
@@ -125,14 +139,16 @@ def construir_prompt(actor, posts):
         "1. Resumen del perfil\n"
         "2. Temas principales (con un porcentaje aproximado de cada uno)\n"
         "3. Tono y sentimiento general\n"
-        "4. Tipo de contenido (promoción, noticias, interacción con la comunidad...)\n"
-        "5. Engagement: qué tipo de publicaciones obtienen más interacción\n"
+        "4. Tipo de contenido (promoción, noticias, interacción con la comunidad...) y uso de imágenes y vídeos\n"
+        "5. Engagement: qué tipo de publicaciones obtienen más interacción, incluyendo si las que llevan "
+        "vídeo o imagen funcionan mejor\n"
         "6. Frecuencia de publicación\n"
         "7. Público objetivo\n"
         "8. Conclusiones y recomendaciones\n"
         "Basa todas las afirmaciones únicamente en los datos proporcionados. "
-        "No cites frases literales que no aparezcan en las publicaciones ni hagas suposiciones "
-        "sobre imágenes o vídeos. "
+        "No cites frases literales que no aparezcan en las publicaciones. "
+        "No describas lo que muestran las imágenes o vídeos más allá de su texto alternativo, "
+        "ya que no puedes verlos. "
         "Escribe en texto plano, sin formato Markdown, con los títulos de sección en mayúsculas."
     )
     return f"{contexto}\n\nPUBLICACIONES:\n{feed}\n\n{formato}"
