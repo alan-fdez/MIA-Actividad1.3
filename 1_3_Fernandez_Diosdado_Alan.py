@@ -104,6 +104,8 @@ def construir_prompt(actor, posts):
         "7. Público objetivo\n"
         "8. Conclusiones y recomendaciones\n"
         "Basa todas las afirmaciones únicamente en los datos proporcionados. "
+        "No cites frases literales que no aparezcan en las publicaciones ni hagas suposiciones "
+        "sobre imágenes o vídeos. "
         "Escribe en texto plano, sin formato Markdown, con los títulos de sección en mayúsculas."
     )
     return f"{contexto}\n\nPUBLICACIONES:\n{feed}\n\n{formato}"
@@ -118,4 +120,4 @@ def analizar_con_groq(prompt):
         max_completion_tokens=8192,
     )
     print(f"Análisis generado con {MODELO} ({respuesta.usage.total_tokens} tokens)")
-    return respuesta.choices[0].message.content
+    return respuesta.choices[0].message.content.replace("**", "")
