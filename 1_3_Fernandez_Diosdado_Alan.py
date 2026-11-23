@@ -8,7 +8,7 @@ BSKY_IDENTIFIER = os.getenv("BSKY_IDENTIFIER")
 BSKY_PASSWORD = os.getenv("BSKY_PASSWORD")
 
 PERFIL = "playstation.com"
-NUM_POSTS = 100
+NUM_POSTS = 50
 
 
 def conectar_bluesky():
