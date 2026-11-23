@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 from atproto import Client, models
 from pymongo import MongoClient
 from groq import Groq
+from bson import json_util
 
 load_dotenv()
 
@@ -20,6 +21,7 @@ MONGO_COLECCION = "feeds"
 PERFIL = "playstation.com"
 NUM_POSTS = 50
 MODELO = "openai/gpt-oss-120b"
+NOMBRE_SALIDA = "1_3_Fernandez_Diosdado_Alan"
 
 
 def conectar_bluesky():
@@ -121,3 +123,20 @@ def analizar_con_groq(prompt):
     )
     print(f"Análisis generado con {MODELO} ({respuesta.usage.total_tokens} tokens)")
     return respuesta.choices[0].message.content.replace("**", "")
+
+
+def guardar_analisis(coleccion, documento_id, analisis):
+    with open(f"{NOMBRE_SALIDA}.txt", "w", encoding="utf-8") as fichero:
+        fichero.write(analisis)
+    coleccion.update_one(
+        {"_id": documento_id},
+        {"$set": {"analisis": {
+            "modelo": MODELO,
+            "fecha": datetime.now(timezone.utc),
+            "texto": analisis,
+        }}},
+    )
+    documento = coleccion.find_one({"_id": documento_id})
+    with open(f"{NOMBRE_SALIDA}.json", "w", encoding="utf-8") as fichero:
+        fichero.write(json_util.dumps(documento, indent=2, ensure_ascii=False))
+    print(f"Análisis guardado en {NOMBRE_SALIDA}.txt, en MongoDB y en {NOMBRE_SALIDA}.json")
