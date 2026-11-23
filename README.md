@@ -94,7 +94,7 @@ Análisis generado con openai/gpt-oss-120b (4025 tokens)
 Análisis guardado en 1_3_Fernandez_Diosdado_Alan.txt, en MongoDB y en 1_3_Fernandez_Diosdado_Alan.json
 ```
 
-Ficheros generados:
+Ficheros generados (el nombre se puede cambiar con la constante `NOMBRE_SALIDA`, ver [Personalización](#personalización)):
 
 - `1_3_Fernandez_Diosdado_Alan.txt`: informe de análisis generado por el modelo.
 - `1_3_Fernandez_Diosdado_Alan.json`: documento de MongoDB completo (perfil, publicaciones y análisis).
@@ -110,6 +110,7 @@ Las constantes al principio del script permiten adaptar el análisis:
 | `PERFIL` | `playstation.com` | Handle del perfil de Bluesky a analizar |
 | `NUM_POSTS` | `50` | Número de publicaciones a descargar (máximo 100) |
 | `MODELO` | `openai/gpt-oss-120b` | Modelo de Groq utilizado para el análisis |
+| `NOMBRE_SALIDA` | `1_3_Fernandez_Diosdado_Alan` | Nombre (sin extensión) de los ficheros `.txt` y `.json` generados |
 
 ## Pruebas
 
