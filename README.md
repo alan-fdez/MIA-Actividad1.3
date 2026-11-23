@@ -1,15 +1,17 @@
 # Bluesky Groq Analyzer
 
-Herramienta en Python que extrae las publicaciones de un perfil de **Bluesky**, limpia su texto, las almacena en **MongoDB** y genera un informe de análisis del perfil mediante un modelo de lenguaje a través de la API de **Groq**.
+Herramienta en Python que extrae las publicaciones de un perfil de **Bluesky** (texto, imágenes y vídeos), limpia su texto, las almacena en **MongoDB** y genera un informe de análisis del perfil mediante un modelo de lenguaje a través de la API de **Groq**.
 
 Proyecto desarrollado para la Actividad 1.3 de la asignatura *Sistemas de Big Data* del Máster en Inteligencia Artificial.
 
 ## Características
 
 - **Extracción de datos no estructurados** de Bluesky con el SDK `atproto`: texto, fecha y métricas de interacción (likes, reposts, respuestas y citas) de las publicaciones propias del perfil, excluyendo respuestas y reposts.
-- **Limpieza del texto**: eliminación de enlaces (usando las *facets* de Bluesky y una expresión regular de respaldo), emojis y espacios redundantes, conservando también el texto original.
+- **Extracción de contenido multimedia**: imágenes, galerías y vídeos de cada publicación, con su URL, miniatura, texto alternativo y proporción (ancho y alto).
+- **Limpieza del texto**: eliminación de enlaces (usando las *facets* de Bluesky y una expresión regular de respaldo), emojis y espacios redundantes, conservando también el texto original. Solo se descartan las publicaciones que no tienen ni texto ni multimedia.
 - **Almacenamiento en MongoDB**: un documento por extracción con el perfil, la fecha y todas las publicaciones, lo que permite mantener un historial de análisis.
-- **Análisis con LLM**: construcción de un prompt con contexto, publicaciones y formato de respuesta, y generación de un informe en español con 8 secciones (temas, tono, engagement, frecuencia, público objetivo, recomendaciones...).
+- **Estadísticas calculadas en Python**: total de publicaciones, periodo, frecuencia, días con actividad, interacciones medias globales y por tipo de multimedia, y publicaciones con más interacciones. Se pasan al modelo para que las cifras del informe sean exactas.
+- **Análisis con LLM**: construcción de un prompt con contexto, publicaciones (incluyendo su multimedia), estadísticas y formato de respuesta, y generación de un informe en español con 8 secciones (temas, tono, uso de imágenes y vídeos, engagement, frecuencia, público objetivo, recomendaciones...).
 - **Exportación de resultados**: el informe se guarda en un fichero TXT, se añade al documento de MongoDB y el documento completo se exporta a JSON.
 
 ## Tecnologías utilizadas
@@ -88,9 +90,9 @@ Salida esperada:
 
 ```
 Sesión iniciada en Bluesky como @tu_handle.bsky.social
-Posts obtenidos de @playstation.com: 49
-Feed guardado en MongoDB con _id 6b04835acd47085f1af1f628
-Análisis generado con openai/gpt-oss-120b (4025 tokens)
+Posts obtenidos de @playstation.com: 50
+Feed guardado en MongoDB con _id 6b048fd11f963e083d519daf
+Análisis generado con openai/gpt-oss-120b (5098 tokens)
 Análisis guardado en 1_3_Fernandez_Diosdado_Alan.txt, en MongoDB y en 1_3_Fernandez_Diosdado_Alan.json
 ```
 
@@ -109,12 +111,13 @@ Las constantes al principio del script permiten adaptar el análisis:
 |---|---|---|
 | `PERFIL` | `playstation.com` | Handle del perfil de Bluesky a analizar |
 | `NUM_POSTS` | `50` | Número de publicaciones a descargar (máximo 100) |
+| `NUM_DESTACADOS` | `5` | Número de publicaciones con más interacciones incluidas en las estadísticas |
 | `MODELO` | `openai/gpt-oss-120b` | Modelo de Groq utilizado para el análisis |
 | `NOMBRE_SALIDA` | `1_3_Fernandez_Diosdado_Alan` | Nombre (sin extensión) de los ficheros `.txt` y `.json` generados |
 
 ## Pruebas
 
-El proyecto incluye pruebas unitarias con `pytest` para las funciones de limpieza de texto y construcción del prompt. No requieren conexión a Bluesky, MongoDB ni Groq.
+El proyecto incluye 18 pruebas unitarias con `pytest` para la limpieza de texto, la extracción multimedia (imágenes, galerías, vídeos y citas), el cálculo de estadísticas y la construcción del prompt. No requieren conexión a Bluesky, MongoDB ni Groq.
 
 ```bash
 uv run pytest -v
@@ -146,8 +149,13 @@ MIA-Actividad1.3/
 | `conectar_bluesky()` | Inicia sesión en Bluesky con las credenciales del `.env` |
 | `obtener_feed(cliente, actor, limite)` | Descarga las publicaciones propias del perfil y extrae texto, fecha y métricas |
 | `limpiar_texto(record)` | Elimina enlaces, emojis y espacios redundantes del texto |
+| `extraer_multimedia(embed)` | Obtiene las imágenes y vídeos de una publicación (imágenes, galerías, vídeos y citas con multimedia) |
+| `crear_media(tipo, url, miniatura, alt, proporcion)` | Normaliza cada imagen o vídeo en un diccionario con los mismos campos |
 | `guardar_feed_mongo(actor, posts)` | Inserta el feed en MongoDB como un único documento |
-| `construir_prompt(actor, posts)` | Genera el prompt: contexto + publicaciones + formato de respuesta |
+| `describir_multimedia(multimedia)` | Resume la multimedia de una publicación para el prompt (p. ej. `imagen x4`, `video`) |
+| `contar_interacciones(post)` / `tipo_principal(post)` | Funciones auxiliares para las estadísticas |
+| `calcular_estadisticas(posts)` | Calcula totales, frecuencia, medias por tipo de multimedia y publicaciones destacadas |
+| `construir_prompt(actor, posts)` | Genera el prompt: contexto + publicaciones + estadísticas + formato de respuesta |
 | `analizar_con_groq(prompt)` | Envía el prompt al modelo de Groq y devuelve el análisis |
 | `guardar_analisis(coleccion, documento_id, analisis)` | Guarda el análisis en TXT, lo añade al documento de MongoDB y lo exporta a JSON |
 
@@ -158,13 +166,23 @@ MIA-Actividad1.3/
   "_id": "ObjectId",
   "perfil": "playstation.com",
   "fecha_extraccion": "ISODate",
-  "num_posts": 49,
+  "num_posts": 50,
   "posts": [
     {
       "uri": "at://did:plc:.../app.bsky.feed.post/...",
       "fecha": "2026-11-23T15:01:32.949Z",
       "texto": "Texto original de la publicación",
       "texto_limpio": "Texto tras la limpieza",
+      "multimedia": [
+        {
+          "tipo": "imagen",
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/...",
+          "miniatura": "https://cdn.bsky.app/img/feed_thumbnail/plain/...",
+          "alt": "Ends 11/30",
+          "ancho": 1080,
+          "alto": 1080
+        }
+      ],
       "likes": 28,
       "reposts": 0,
       "respuestas": 9,
