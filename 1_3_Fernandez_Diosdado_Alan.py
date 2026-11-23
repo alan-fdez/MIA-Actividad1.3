@@ -21,6 +21,7 @@ MONGO_COLECCION = "feeds"
 
 PERFIL = "playstation.com"
 NUM_POSTS = 50
+NUM_DESTACADOS = 5
 MODELO = "openai/gpt-oss-120b"
 NOMBRE_SALIDA = "1_3_Fernandez_Diosdado_Alan"
 
@@ -120,13 +121,20 @@ def describir_multimedia(multimedia):
     return descripcion
 
 
+def contar_interacciones(post):
+    return post["likes"] + post["reposts"] + post["respuestas"] + post["citas"]
+
+
+def tipo_principal(post):
+    return post["multimedia"][0]["tipo"] if post["multimedia"] else "sin multimedia"
+
+
 def calcular_estadisticas(posts):
     fechas = sorted(p["fecha"][:10] for p in posts)
     dias = (date.fromisoformat(fechas[-1]) - date.fromisoformat(fechas[0])).days + 1
     grupos = {}
     for p in posts:
-        tipo = p["multimedia"][0]["tipo"] if p["multimedia"] else "sin multimedia"
-        grupos.setdefault(tipo, []).append(p["likes"] + p["reposts"] + p["respuestas"] + p["citas"])
+        grupos.setdefault(tipo_principal(p), []).append(contar_interacciones(p))
     lineas = [
         f"Total de publicaciones: {len(posts)}",
         f"Periodo: del {fechas[0]} al {fechas[-1]} ({dias} días)",
@@ -136,6 +144,12 @@ def calcular_estadisticas(posts):
         lineas.append(
             f"Publicaciones de tipo '{tipo}': {len(valores)}, interacciones medias "
             f"{sum(valores) / len(valores):.1f} (mínimo {min(valores)}, máximo {max(valores)})"
+        )
+    lineas.append("Publicaciones con más interacciones:")
+    for p in sorted(posts, key=contar_interacciones, reverse=True)[:NUM_DESTACADOS]:
+        lineas.append(
+            f"- {p['fecha'][:10]} | {tipo_principal(p)} | {contar_interacciones(p)} interacciones "
+            f"| {p['texto_limpio'] or '(sin texto)'}"
         )
     return "\n".join(lineas)
 
@@ -166,10 +180,10 @@ def construir_prompt(actor, posts):
         "7. Público objetivo\n"
         "8. Conclusiones y recomendaciones\n"
         "Basa todas las afirmaciones únicamente en los datos proporcionados. "
-        "Usa las estadísticas calculadas para todos los datos numéricos (totales, frecuencia y medias) "
-        "y no las recalcules. "
-        "No cites frases literales que no aparezcan en las publicaciones y, si citas alguna, "
-        "hazlo literalmente en su idioma original. "
+        "Usa las estadísticas calculadas para todos los datos numéricos (totales, frecuencia, medias "
+        "e interacciones de las publicaciones destacadas) y no las recalcules. "
+        "Usa comillas solo para texto copiado literalmente de las publicaciones, en su idioma original; "
+        "no parafrasees ni traduzcas entre comillas. "
         "No describas lo que muestran las imágenes o vídeos más allá de su texto alternativo, "
         "ya que no puedes verlos. "
         "Escribe en texto plano, sin formato Markdown, con los títulos de sección en mayúsculas."

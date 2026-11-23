@@ -99,6 +99,11 @@ def test_calcular_estadisticas():
     assert "Frecuencia media: 0.50 publicaciones al día" in estadisticas
     assert "Publicaciones de tipo 'video': 1, interacciones medias 133.0 (mínimo 133, máximo 133)" in estadisticas
     assert "Publicaciones de tipo 'imagen': 1, interacciones medias 38.0 (mínimo 38, máximo 38)" in estadisticas
+    assert estadisticas.endswith(
+        "Publicaciones con más interacciones:\n"
+        "- 2026-11-20 | video | 133 interacciones | GTA VI is here\n"
+        "- 2026-11-23 | imagen | 38 interacciones | Black Friday Deals:"
+    )
 
 
 PROPORCION_CUADRADA = models.AppBskyEmbedDefs.AspectRatio(width=1080, height=1080)
