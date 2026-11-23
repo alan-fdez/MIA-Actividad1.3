@@ -140,3 +140,12 @@ def guardar_analisis(coleccion, documento_id, analisis):
     with open(f"{NOMBRE_SALIDA}.json", "w", encoding="utf-8") as fichero:
         fichero.write(json_util.dumps(documento, indent=2, ensure_ascii=False))
     print(f"Análisis guardado en {NOMBRE_SALIDA}.txt, en MongoDB y en {NOMBRE_SALIDA}.json")
+
+
+if __name__ == "__main__":
+    cliente_bsky = conectar_bluesky()
+    posts = obtener_feed(cliente_bsky, PERFIL, NUM_POSTS)
+    print(f"Posts obtenidos de @{PERFIL}: {len(posts)}")
+    coleccion, documento_id = guardar_feed_mongo(PERFIL, posts)
+    analisis = analizar_con_groq(construir_prompt(PERFIL, posts))
+    guardar_analisis(coleccion, documento_id, analisis)
