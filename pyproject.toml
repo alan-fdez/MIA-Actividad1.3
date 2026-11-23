@@ -4,6 +4,7 @@ version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
     "atproto>=0.0.75",
+    "emoji>=2.16.0",
     "groq>=1.7.0",
     "pymongo>=4.20.1",
     "python-dotenv>=1.2.4",

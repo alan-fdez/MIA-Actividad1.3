@@ -1,6 +1,8 @@
 import os
+import re
+import emoji
 from dotenv import load_dotenv
-from atproto import Client
+from atproto import Client, models
 
 load_dotenv()
 
@@ -18,6 +20,21 @@ def conectar_bluesky():
     return cliente
 
 
+def limpiar_texto(record):
+    texto = record.text.encode("utf-8")
+    enlaces = []
+    for faceta in record.facets or []:
+        if any(isinstance(f, models.AppBskyRichtextFacet.Link) for f in faceta.features):
+            enlaces.append((faceta.index.byte_start, faceta.index.byte_end))
+    for inicio, fin in sorted(enlaces, reverse=True):
+        texto = texto[:inicio] + texto[fin:]
+    texto = texto.decode("utf-8")
+    texto = re.sub(r"https?://\S+", "", texto)
+    texto = emoji.replace_emoji(texto, replace="")
+    texto = re.sub(r"\s+", " ", texto).strip()
+    return texto
+
+
 def obtener_feed(cliente, actor, limite):
     respuesta = cliente.get_author_feed(actor=actor, limit=limite, filter="posts_no_replies")
     posts = []
@@ -29,6 +46,7 @@ def obtener_feed(cliente, actor, limite):
             "uri": post.uri,
             "fecha": post.record.created_at,
             "texto": post.record.text,
+            "texto_limpio": limpiar_texto(post.record),
             "likes": post.like_count,
             "reposts": post.repost_count,
             "respuestas": post.reply_count,

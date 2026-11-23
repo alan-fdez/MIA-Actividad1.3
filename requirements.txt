@@ -22,6 +22,8 @@ dnspython==2.9.2
     # via
     #   atproto
     #   pymongo
+emoji==2.16.0
+    # via bluesky-groq-analyzer
 groq==1.7.0
     # via bluesky-groq-analyzer
 h11==0.16.0
