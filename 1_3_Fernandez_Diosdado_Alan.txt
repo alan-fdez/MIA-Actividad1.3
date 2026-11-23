@@ -1,0 +1,47 @@
+ANÁLISIS DEL PERFIL @PLAYSTATION.COM EN BLUESKY  
+
+1. RESUMEN DEL PERFIL  
+El perfil de PlayStation.com publica de forma continua contenido centrado en el ecosistema PlayStation: lanzamientos de juegos, ofertas especiales (Black Friday), novedades de hardware, campañas de pre‑pedido y recordatorios de eventos. En los últimos 49 posts (aproximadamente 50 días) la frecuencia es alta, con al menos una publicación diaria y picos de 3‑4 posts en algunos días. El engagement total varía ampliamente, con picos de likes (más de 200) y respuestas (más de 80) en publicaciones relacionadas con grandes lanzamientos (GTA VI, Gran Turismo, God of War) y eventos de preventa.
+
+2. TEMAS PRINCIPALES  
+- Lanzamientos y pre‑cargas de videojuegos (≈45 %): GTA VI, God of War, Ghost of Yōtei, Helldivers 2, etc.  
+- Promociones y ofertas (Black Friday, descuentos, PlayStation Plus) (≈30 %): varias publicaciones anuncian “Black Friday Deals”, descuentos en accesorios y juegos, y listas de títulos disponibles en PlayStation Plus.  
+- Hardware y ediciones especiales (≈15 %): DualSense Transparent, Prism Collection, Limited‑Edition controllers, Pulse headset.  
+- Eventos y contenido de comunidad (≈10 %): recordatorios de pre‑load, fechas de lanzamiento, concursos implícitos (ej. “Mark the occasion”), y menciones a podcasts o colaboraciones.  
+
+3. TONO Y SENTIMIENTO GENERAL  
+El tono es mayormente informativo y promocional, con un estilo entusiasta y de llamado a la acción (“Discover”, “Mark the occasion”, “Learn more”). No aparecen expresiones negativas; el sentimiento se percibe como positivo y orientado a la expectativa, resaltando beneficios (“save on games”, “most pre‑ordered game”, “celebrate”).  
+
+4. TIPO DE CONTENIDO  
+- Promoción de ventas/ofertas (Black Friday Deals, descuentos en accesorios).  
+- Noticias de lanzamientos (anuncios de disponibilidad, fechas de salida, pre‑load).  
+- Anuncios de hardware y ediciones limitadas (controladores, headset).  
+- Contenido de comunidad (recordatorios, llamadas a pre‑carga, podcasts).  
+- Actualizaciones de catálogo PlayStation Plus (listados de juegos disponibles).  
+
+5. ENGAGEMENT: TIPOS DE PUBLICACIÓN CON MAYOR INTERACCIÓN  
+- Grandes lanzamientos de franquicias (GTA VI, God of War, Gran Turismo) generan los niveles más altos de respuestas y citas (ej. 30 respuestas y 6 citas, 83 respuestas y 20 citas).  
+- Ofertas Black Friday obtienen altos likes pero menos respuestas, indicando interés pasivo.  
+- Anuncios de hardware exclusivo (Transparent DualSense, Prism Collection) alcanzan likes elevados (≈200) y citas moderadas.  
+- Publicaciones con llamado a acción específico (pre‑load, clear storage) muestran mayor número de respuestas (≥30).  
+
+6. FRECUENCIA DE PUBLICACIÓN  
+- Promedio: ~1 publicación por día.  
+- Días con mayor actividad: 2026‑11‑03 (3 posts), 2026‑10‑28 (2 posts), 2026‑10‑22 (3 posts).  
+- Ritmo constante durante la segunda mitad de noviembre, con incremento de posts de ofertas a partir del 15 nov.  
+
+7. PÚBLICO OBJETIVO  
+- Jugadores de PlayStation 5 que siguen lanzamientos de títulos AAA y juegos de catálogo.  
+- Consumidores interesados en ofertas y descuentos (Black Friday, PlayStation Plus).  
+- Fans de coleccionables y hardware premium (controladores edición limitada, headset).  
+- Comunidad que busca información práctica (pre‑load, espacio de almacenamiento, fechas de lanzamiento).  
+
+8. CONCLUSIONES Y RECOMENDACIONES  
+- Mantener la combinación actual de anuncios de grandes lanzamientos y promociones de ofertas, ya que ambos generan engagement alto pero de naturaleza distinta (interacción vs likes).  
+- Potenciar los posts con llamado a la acción (pre‑load, clear storage) que generan más respuestas; incluir preguntas directas para estimular conversaciones.  
+- Aprovechar el pico de interés en ediciones limitadas publicando contenido visual adicional (aunque no analizable aquí) y ofreciendo enlaces a pre‑orders para convertir el alto número de likes en ventas.  
+- Optimizar la calendarización de Black Friday: publicar recordatorios más frecuentes en la semana previa al inicio de las ofertas para maximizar la exposición.  
+- Diversificar ligeramente el contenido con más posts de comunidad (ej. encuestas, preguntas sobre experiencias de juego) para aumentar la tasa de respuestas y citas, equilibrando la carga informativa con interacción.  
+- Monitorear la reacción a cada categoría (porcentaje de respuestas vs likes) para ajustar el peso de cada tipo de publicación en futuros calendarios, priorizando aquellos que generan mayor conversación.  
+
+Este análisis se basa exclusivamente en los datos de interacciones y textos proporcionados y refleja el comportamiento actual del perfil en Bluesky.
