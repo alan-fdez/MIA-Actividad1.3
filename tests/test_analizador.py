@@ -89,3 +89,63 @@ def test_prompt_pide_las_ocho_secciones():
 def test_prompt_sigue_el_orden_contexto_feed_formato():
     prompt = analizador.construir_prompt("playstation.com", POSTS)
     assert prompt.index("Eres un analista") < prompt.index("PUBLICACIONES:") < prompt.index("Redacta en español")
+
+
+PROPORCION_CUADRADA = models.AppBskyEmbedDefs.AspectRatio(width=1080, height=1080)
+
+
+def test_extrae_imagenes_con_alt_y_proporcion():
+    embed = models.AppBskyEmbedImages.View(images=[
+        models.AppBskyEmbedImages.ViewImage(alt="Ends 11/30", fullsize="https://img/full", thumb="https://img/thumb",
+                                            aspect_ratio=PROPORCION_CUADRADA),
+    ])
+    assert analizador.extraer_multimedia(embed) == [{
+        "tipo": "imagen", "url": "https://img/full", "miniatura": "https://img/thumb",
+        "alt": "Ends 11/30", "ancho": 1080, "alto": 1080,
+    }]
+
+
+def test_extrae_todas_las_imagenes_de_una_galeria():
+    embed = models.AppBskyEmbedGallery.View(items=[
+        models.AppBskyEmbedGallery.ViewImage(alt="", fullsize=f"https://img/{i}", thumbnail=f"https://thumb/{i}",
+                                             aspect_ratio=PROPORCION_CUADRADA)
+        for i in range(3)
+    ])
+    multimedia = analizador.extraer_multimedia(embed)
+    assert len(multimedia) == 3
+    assert [m["miniatura"] for m in multimedia] == ["https://thumb/0", "https://thumb/1", "https://thumb/2"]
+
+
+def test_extrae_video_sin_alt_ni_proporcion():
+    embed = models.AppBskyEmbedVideo.View(cid="bafy", playlist="https://video/playlist.m3u8",
+                                          thumbnail="https://video/thumbnail.jpg", alt=None, aspect_ratio=None)
+    assert analizador.extraer_multimedia(embed) == [{
+        "tipo": "video", "url": "https://video/playlist.m3u8", "miniatura": "https://video/thumbnail.jpg",
+        "alt": "", "ancho": None, "alto": None,
+    }]
+
+
+def test_extrae_multimedia_de_una_cita_con_imagenes():
+    imagenes = models.AppBskyEmbedImages.View(images=[
+        models.AppBskyEmbedImages.ViewImage(alt="", fullsize="https://img/full", thumb="https://img/thumb"),
+    ])
+    embed = models.AppBskyEmbedRecordWithMedia.View.model_construct(media=imagenes)
+    assert [m["tipo"] for m in analizador.extraer_multimedia(embed)] == ["imagen"]
+
+
+def test_post_sin_embed_no_tiene_multimedia():
+    assert analizador.extraer_multimedia(None) == []
+
+
+def test_describir_multimedia():
+    imagen = {"tipo": "imagen", "alt": ""}
+    assert analizador.describir_multimedia([]) == "sin multimedia"
+    assert analizador.describir_multimedia([{"tipo": "video", "alt": ""}]) == "video"
+    assert analizador.describir_multimedia([imagen, imagen, imagen]) == "imagen x3"
+    assert analizador.describir_multimedia([{"tipo": "imagen", "alt": "Ends 11/30"}]) == "imagen (alt: Ends 11/30)"
+
+
+def test_prompt_marca_los_posts_sin_texto():
+    post = dict(POSTS[0], texto_limpio="")
+    prompt = analizador.construir_prompt("playstation.com", [post])
+    assert "| multimedia: video | (sin texto)" in prompt
